@@ -1,0 +1,49 @@
+name: Polar daily export
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional date YYYY-MM-DD; blank = previous day Europe/Berlin"
+        required: false
+        type: string
+  schedule:
+    - cron: "30 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Polar data
+        env:
+          POLAR_CLIENT_ID: ${{ secrets.POLAR_CLIENT_ID }}
+          POLAR_CLIENT_SECRET: ${{ secrets.POLAR_CLIENT_SECRET }}
+          POLAR_REFRESH_TOKEN: ${{ secrets.POLAR_REFRESH_TOKEN }}
+          POLAR_DATE: ${{ inputs.date }}
+        run: python src/fetch_polar.py
+
+      - name: Commit changed data
+        run: |
+          if git diff --quiet -- data/ && [ -z "$(git status --porcelain data/)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "polar-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git commit -m "Update Polar data $(date -u +%F)"
+          git push
