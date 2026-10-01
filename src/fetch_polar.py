@@ -319,11 +319,6 @@ def build_summary(raw):
         "date": raw["date"],
         "fetched_at": raw["fetched_at"],
         "steps": extract_steps(raw.get("activity"), raw["date"]),
-        "step_diagnostics": extract_step_details(raw.get("activity"), raw["date"]),
-        "activity_diagnostics": {
-            "top_level_keys": list(raw.get("activity", {}).keys()) if isinstance(raw.get("activity"), dict) else [],
-            "matching_key_paths": collect_key_paths(raw.get("activity")),
-        },
         "continuous_hr": extract_hr(raw.get("continuous_hr")),
         "training_sessions": trainings,
         "training_calories_total_kcal": sum(training_calories) if training_calories else 0,
