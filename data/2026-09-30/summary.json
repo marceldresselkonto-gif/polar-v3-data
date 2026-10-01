@@ -1,10 +1,12 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-10-01T20:14:42.908384+02:00",
-  "steps": null,
+  "fetched_at": "2026-10-01T20:16:02.230188+02:00",
+  "steps": 6780,
   "step_diagnostics": {
-    "by_device": {},
-    "raw_sum": null
+    "by_device": {
+      "1D96A23A": 6780
+    },
+    "raw_sum": 6780
   },
   "activity_diagnostics": {
     "top_level_keys": [
