@@ -159,7 +159,7 @@ def extract_step_details(activity, target_date=None):
     """Return step totals per device using the documented v4 activity schema."""
     result = {"by_device": {}, "raw_sum": None}
     try:
-        days = activity["activities"]["activityDays"]
+        days = activity["activityDays"]
     except (TypeError, KeyError):
         return result
 
