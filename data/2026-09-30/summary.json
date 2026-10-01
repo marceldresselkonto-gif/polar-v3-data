@@ -1,8 +1,13 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-10-01T20:02:07.832241+02:00",
-  "steps": null,
-  "continuous_hr": {},
+  "fetched_at": "2026-10-01T20:08:39.008758+02:00",
+  "steps": 14630,
+  "continuous_hr": {
+    "samples": 10180,
+    "min_bpm": 58,
+    "avg_bpm": 95.6,
+    "max_bpm": 123
+  },
   "training_sessions": [
     {
       "id": "0e27d346-7c93-ca5e-08ae-84124841263b",

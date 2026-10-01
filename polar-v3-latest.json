@@ -1,1 +1,1059 @@
-{}
+{
+  "date": "2026-09-30",
+  "fetched_at": "2026-10-01T20:08:39.008758+02:00",
+  "steps": 14630,
+  "continuous_hr": {
+    "samples": 10180,
+    "min_bpm": 58,
+    "avg_bpm": 95.6,
+    "max_bpm": 123
+  },
+  "training_sessions": [
+    {
+      "id": "0e27d346-7c93-ca5e-08ae-84124841263b",
+      "name": "",
+      "start_time": "2026-09-30T19:17:39",
+      "stop_time": "2026-09-30T20:28:27",
+      "duration_min": 70.7,
+      "calories_kcal": 588,
+      "hr_avg_bpm": 112,
+      "hr_max_bpm": 143,
+      "training_load": null,
+      "training_benefit": "TRAINING_BENEFIT_BASIC_AND_STEADY_STATE_TRAINING",
+      "feeling": null,
+      "product": "Polar Vantage V3",
+      "strength_training_results": []
+    }
+  ],
+  "training_calories_total_kcal": 588,
+  "sleep": [
+    {
+      "date": "2026-09-30",
+      "deviceReference": {
+        "uuid": "0e030000-0084-0000-0000-00001d96a23a"
+      },
+      "sleepWakeStateChanges": [
+        {
+          "startOffset": 18407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 1488407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 1608407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 3348407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 3438407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 4158407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 4188407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 6408407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 6438407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 7398407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 7608407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 7638407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 7758407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 8718407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 8808407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 8928407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 8988407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 9438407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 9798407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 10128407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11118407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 11478407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11628407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 11778407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11868407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 11928407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11988407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 12228407,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 12678407,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 13130858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 13490858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 13940858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 14930858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 15050858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 15110858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 15380858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 15890858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 16100858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 16190858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 16490858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 16550858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 16640858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 16760858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 18020858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 18080858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 19100858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 19250858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 19520858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 19550858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 20180858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 21560858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 24110858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 24170858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 25010858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 25040858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 25340858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 25400858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 27620858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 27650858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 28010858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 28220858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 28310858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 30650858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 30740858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 31310858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 31430858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 33950858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 34190858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 35960858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 36050858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 37070858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 37280858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 40730858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 40820858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 41720858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 41870858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 41930858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 42020858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 47570858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 47660858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 49340858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 49760858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 49820858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 49910858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 52100858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 52190858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 55190858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 55310858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 55550858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 55640858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 55940858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 56060858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 56210858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 56330858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 57350858,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 57410858,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 59747002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 64997002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 73157002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 73217002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 75107002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 75197002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 75437002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 75647002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 75887002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 76007002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 76097002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 76277002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 76337002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 76427002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 77627002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 77717002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 78197002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 78317002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 78557002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 78677002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 80147002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 80237002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 80417002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 83207002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 83267002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 83387002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 83447002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 83567002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 83597002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 83837002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 83957002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 85217002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 85547002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 85667002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 85757002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-01",
+      "deviceReference": {
+        "uuid": "0e030000-0084-0000-0000-00001d96a23a"
+      },
+      "sleepWakeStateChanges": [
+        {
+          "startOffset": 17002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 1757002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 1847002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 2117002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 2177002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 2327002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 2387002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 2597002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 2627002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 2747002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 2807002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 7517002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 7637002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 7757002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 7817002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 8807002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 8927002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 8987002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 9017002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 9137002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11297002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 11387002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11447002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 11567002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 11627002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 12347002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 12407002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 12917002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 12977002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 13097002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 13247002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 13367002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 13397002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 14747002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 14777002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 16547002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 16577002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 16817002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 16847002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 17957002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 17987002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 18587002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 18617002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 19217002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 19277002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 20747002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 20777002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 21077002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 21107002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 21647002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 21797002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 22877002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 22937002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 23897002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 24017002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 26087002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 26117002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 27827002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 27887002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 27947002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 28007002,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 28337002,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 30784052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 30994052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 31024052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 31084052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 38554052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 38614052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 38794052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 38884052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 39694052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 39784052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 39874052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 39964052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 45604052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 45694052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 46054052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 46204052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 46444052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 46534052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 47104052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 47194052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 47404052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 47614052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 49414052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 49504052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 49654052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 49864052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 49894052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 50134052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 52324052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 52444052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 55594052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 55894052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 56134052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 56494052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 56524052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 57274052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 58414052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 58534052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 58714052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 58774052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 58984052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 59134052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 59434052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 59614052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 61114052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 61444052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 63544052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 63664052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 64654052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 64834052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 64954052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 65254052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 66214052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 66274052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        },
+        {
+          "startOffset": 68314052,
+          "newState": "SLEEP_WAKE_STATE_SLEEP"
+        },
+        {
+          "startOffset": 68794052,
+          "newState": "SLEEP_WAKE_STATE_WAKE"
+        }
+      ]
+    }
+  ],
+  "nightly_recharge": [
+    {
+      "sleep_result_date": "2026-09-30",
+      "ans_status": 1.2925299406051636,
+      "recovery_indicator": 3,
+      "recovery_indicator_sublevel": 46,
+      "ans_rate": 3,
+      "mean_nightly_rri": 779,
+      "mean_nightly_rmssd": 39,
+      "exercise_tip": "Today is a good day for some exercise, even if you might feel tired.",
+      "sleep_tip": "You need to get more sleep. Sticking to regular bedtimes prevents you from building up sleep debt. Try to get to bed earlier tonight.",
+      "vitality_tip": null
+    }
+  ],
+  "daily_total_calories_kcal": null,
+  "daily_total_calories_note": "Nicht berechnet: AccessLink v4 weist im verwendeten Daily-Activity-Endpunkt keinen belastbaren einzelnen Gesamt-kcal-Wert aus."
+}
