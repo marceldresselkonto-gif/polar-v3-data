@@ -2,11 +2,14 @@
 import json
 import os
 import statistics
+import hashlib
+import base64
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from cryptography.fernet import Fernet
 
 TOKEN_URL = "https://auth.polar.com/oauth/token"
 API_BASE = "https://www.polaraccesslink.com/v4/data"
@@ -20,10 +23,30 @@ def required_env(name: str) -> str:
     return value
 
 
+def _fernet(client_secret: str) -> Fernet:
+    key = hashlib.sha256(client_secret.encode("utf-8")).digest()
+    return Fernet(base64.urlsafe_b64encode(key))
+
+
+def load_refresh_token(client_secret: str) -> str:
+    state_file = Path("state") / "polar_refresh_token.enc"
+    if state_file.exists():
+        encrypted = state_file.read_bytes()
+        return _fernet(client_secret).decrypt(encrypted).decode("utf-8")
+    return required_env("POLAR_REFRESH_TOKEN")
+
+
+def save_refresh_token(client_secret: str, refresh_token: str) -> None:
+    state_dir = Path("state")
+    state_dir.mkdir(parents=True, exist_ok=True)
+    encrypted = _fernet(client_secret).encrypt(refresh_token.encode("utf-8"))
+    (state_dir / "polar_refresh_token.enc").write_bytes(encrypted)
+
+
 def refresh_access_token() -> str:
     client_id = required_env("POLAR_CLIENT_ID")
     client_secret = required_env("POLAR_CLIENT_SECRET")
-    refresh_token = required_env("POLAR_REFRESH_TOKEN")
+    refresh_token = load_refresh_token(client_secret)
 
     response = requests.post(
         TOKEN_URL,
@@ -34,11 +57,19 @@ def refresh_access_token() -> str:
         },
         timeout=30,
     )
-    response.raise_for_status()
+    if not response.ok:
+        raise RuntimeError(
+            f"Polar token refresh failed with HTTP {response.status_code}: "
+            f"{response.text[:1000]}"
+        )
     payload = response.json()
     token = payload.get("access_token")
     if not token:
         raise RuntimeError("Polar token response contained no access_token")
+
+    # Polar may rotate refresh tokens. Persist the newest token encrypted.
+    next_refresh = payload.get("refresh_token") or refresh_token
+    save_refresh_token(client_secret, next_refresh)
     return token
 
 
@@ -86,21 +117,13 @@ def fetch_day(token: str, target: date):
             "/continuous-samples",
             repeated_params(start, end, ["heart-rate-samples"]),
         ),
+        # Start with the base training-session payload. It already contains
+        # duration, calories, HR averages/maxima and training load. Optional
+        # feature expansion can be added after the core pipeline is verified.
         "training": api_get(
             token,
             "/training-sessions/list",
-            repeated_params(
-                start,
-                end,
-                [
-                    "samples",
-                    "training-load-report",
-                    "zones",
-                    "pause-times",
-                    "strength-training-results",
-                    "physical-info",
-                ],
-            ),
+            [("from", start), ("to", end)],
         ),
         "sleep": api_get(
             token,
