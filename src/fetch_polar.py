@@ -123,7 +123,10 @@ def fetch_day(token: str, target: date):
         "training": api_get(
             token,
             "/training-sessions/list",
-            [("from", start), ("to", end)],
+            [
+                ("from", f"{start}T00:00:00"),
+                ("to", f"{end}T00:00:00"),
+            ],
         ),
         "sleep": api_get(
             token,
