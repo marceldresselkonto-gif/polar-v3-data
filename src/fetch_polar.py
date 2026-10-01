@@ -281,6 +281,35 @@ def extract_nightly(nightly):
     return compact
 
 
+
+def collect_key_paths(obj, target_fragments=("step", "activity"), max_items=200):
+    """Collect compact key paths for diagnostics without dumping full raw payloads."""
+    results = []
+
+    def walk(value, path="$"):
+        if len(results) >= max_items:
+            return
+        if isinstance(value, dict):
+            for key, child in value.items():
+                key_l = str(key).lower()
+                child_path = f"{path}.{key}"
+                if any(fragment in key_l for fragment in target_fragments):
+                    preview = child
+                    if isinstance(child, (dict, list)):
+                        if isinstance(child, dict):
+                            preview = {"type": "dict", "keys": list(child.keys())[:20]}
+                        else:
+                            preview = {"type": "list", "len": len(child)}
+                    results.append({"path": child_path, "preview": preview})
+                walk(child, child_path)
+        elif isinstance(value, list):
+            for i, child in enumerate(value[:50]):
+                walk(child, f"{path}[{i}]")
+
+    walk(obj)
+    return results
+
+
 def build_summary(raw):
     trainings = extract_training(raw.get("training"))
     training_calories = [
@@ -291,6 +320,10 @@ def build_summary(raw):
         "fetched_at": raw["fetched_at"],
         "steps": extract_steps(raw.get("activity"), raw["date"]),
         "step_diagnostics": extract_step_details(raw.get("activity"), raw["date"]),
+        "activity_diagnostics": {
+            "top_level_keys": list(raw.get("activity", {}).keys()) if isinstance(raw.get("activity"), dict) else [],
+            "matching_key_paths": collect_key_paths(raw.get("activity")),
+        },
         "continuous_hr": extract_hr(raw.get("continuous_hr")),
         "training_sessions": trainings,
         "training_calories_total_kcal": sum(training_calories) if training_calories else 0,
