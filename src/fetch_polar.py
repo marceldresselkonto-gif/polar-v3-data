@@ -155,16 +155,48 @@ def _walk(obj):
             yield from _walk(value)
 
 
-def extract_steps(activity):
-    """Sum all Polar step sample buckets defensively across API shape variants."""
-    values = []
-    for node in _walk(activity):
-        step_samples = node.get("stepSamples")
-        if isinstance(step_samples, dict):
-            steps = step_samples.get("steps")
-            if isinstance(steps, list):
-                values.extend(x for x in steps if isinstance(x, (int, float)))
-    return int(sum(values)) if values else None
+def extract_step_details(activity, target_date=None):
+    """Return step totals per device using the documented v4 activity schema."""
+    result = {"by_device": {}, "raw_sum": None}
+    try:
+        days = activity["activities"]["activityDays"]
+    except (TypeError, KeyError):
+        return result
+
+    raw_sum = 0
+    found = False
+    for day in days:
+        if target_date and day.get("date") != target_date:
+            continue
+        for dev in day.get("activitiesPerDevice", []):
+            ref = dev.get("deviceReference") or {}
+            device_id = ref.get("deviceId") or ref.get("uuid") or "unknown"
+            device_total = 0
+            device_found = False
+            for sample in dev.get("activitySamples", []):
+                step_samples = sample.get("stepSamples") or {}
+                steps = step_samples.get("steps") or []
+                vals = [x for x in steps if isinstance(x, (int, float))]
+                if vals:
+                    device_total += sum(vals)
+                    raw_sum += sum(vals)
+                    device_found = True
+                    found = True
+            if device_found:
+                result["by_device"][device_id] = int(device_total)
+    result["raw_sum"] = int(raw_sum) if found else None
+    return result
+
+
+def extract_steps(activity, target_date=None):
+    details = extract_step_details(activity, target_date)
+    values = list(details["by_device"].values())
+    if not values:
+        return None
+    # Do not add devices together: multiple Polar devices can contain
+    # overlapping activity for the same day. Use the largest single-device
+    # total until cross-device reconciliation is explicitly implemented.
+    return max(values)
 
 
 def extract_hr(continuous_hr):
@@ -257,7 +289,8 @@ def build_summary(raw):
     return {
         "date": raw["date"],
         "fetched_at": raw["fetched_at"],
-        "steps": extract_steps(raw.get("activity")),
+        "steps": extract_steps(raw.get("activity"), raw["date"]),
+        "step_diagnostics": extract_step_details(raw.get("activity"), raw["date"]),
         "continuous_hr": extract_hr(raw.get("continuous_hr")),
         "training_sessions": trainings,
         "training_calories_total_kcal": sum(training_calories) if training_calories else 0,
