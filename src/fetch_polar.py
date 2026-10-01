@@ -13,6 +13,7 @@ from cryptography.fernet import Fernet
 
 TOKEN_URL = "https://auth.polar.com/oauth/token"
 API_BASE = "https://www.polaraccesslink.com/v4/data"
+LEGACY_API_BASE = "https://www.polaraccesslink.com/v3/users"
 TZ = ZoneInfo("Europe/Berlin")
 
 
@@ -90,6 +91,32 @@ def api_get(token: str, path: str, params):
     return response.json()
 
 
+def api_get_v3_optional(token: str, path: str, params=None):
+    """Fetch a legacy/non-transactional v3 resource without breaking the daily export."""
+    response = requests.get(
+        f"{LEGACY_API_BASE}{path}",
+        headers={"Authorization": f"Bearer {token}", "Accept": "application/json"},
+        params=params or {},
+        timeout=60,
+    )
+    if response.status_code in (204, 403, 404):
+        return {
+            "_available": False,
+            "_status": response.status_code,
+            "_message": response.text[:500] if response.text else None,
+        }
+    if not response.ok:
+        return {
+            "_available": False,
+            "_status": response.status_code,
+            "_message": response.text[:500] if response.text else None,
+        }
+    payload = response.json()
+    if isinstance(payload, dict):
+        payload["_available"] = True
+    return payload
+
+
 def day_range(target: date):
     start = target.isoformat()
     end = (target + timedelta(days=1)).isoformat()
@@ -141,6 +168,21 @@ def fetch_day(token: str, target: date):
             token,
             "/nightly-recharge-results",
             [("from", start), ("to", end)],
+        ),
+        # v3 non-transactional daily summaries expose Polar's exact daily totals
+        # (calories, active calories, daily activity %, durations, distance).
+        "daily_activity_summary_v3": api_get_v3_optional(
+            token,
+            f"/activities/{start}",
+            {
+                "steps": "true",
+                "activity_zones": "true",
+                "inactivity_stamps": "true",
+            },
+        ),
+        "sleep_summary_v3": api_get_v3_optional(token, f"/sleep/{start}"),
+        "nightly_recharge_v3": api_get_v3_optional(
+            token, f"/nightly-recharge/{start}"
         ),
     }
 
@@ -247,13 +289,83 @@ def extract_training(training):
     return sessions
 
 
-def extract_sleep(sleep):
-    if not isinstance(sleep, dict):
+def extract_sleep_v3(sleep):
+    if not isinstance(sleep, dict) or not sleep.get("_available"):
         return None
-    # Keep a compact copy of the most useful high-level fields while raw.json
-    # retains the complete response. API shapes can evolve, so this is defensive.
-    vectors = sleep.get("sleepWakeVectors") or sleep.get("sleepResults") or sleep
-    return vectors
+    stage_seconds = [
+        sleep.get("light_sleep"),
+        sleep.get("deep_sleep"),
+        sleep.get("rem_sleep"),
+        sleep.get("unrecognized_sleep_stage"),
+    ]
+    stage_seconds = [x for x in stage_seconds if isinstance(x, (int, float))]
+    total_sleep_seconds = sum(stage_seconds) if stage_seconds else None
+    return {
+        "sleep_start_time": sleep.get("sleep_start_time"),
+        "sleep_end_time": sleep.get("sleep_end_time"),
+        "sleep_score": sleep.get("sleep_score"),
+        "sleep_charge": sleep.get("sleep_charge"),
+        "sleep_rating": sleep.get("sleep_rating"),
+        "continuity": sleep.get("continuity"),
+        "continuity_class": sleep.get("continuity_class"),
+        "total_sleep_min": round(total_sleep_seconds / 60, 1) if total_sleep_seconds is not None else None,
+        "light_sleep_min": round((sleep.get("light_sleep") or 0) / 60, 1) if sleep.get("light_sleep") is not None else None,
+        "deep_sleep_min": round((sleep.get("deep_sleep") or 0) / 60, 1) if sleep.get("deep_sleep") is not None else None,
+        "rem_sleep_min": round((sleep.get("rem_sleep") or 0) / 60, 1) if sleep.get("rem_sleep") is not None else None,
+        "interruptions_min": round((sleep.get("total_interruption_duration") or 0) / 60, 1) if sleep.get("total_interruption_duration") is not None else None,
+        "sleep_cycles": sleep.get("sleep_cycles"),
+        "sleep_goal_min": round((sleep.get("sleep_goal") or 0) / 60, 1) if sleep.get("sleep_goal") is not None else None,
+        "duration_score": sleep.get("group_duration_score"),
+        "solidity_score": sleep.get("group_solidity_score"),
+        "regeneration_score": sleep.get("group_regeneration_score"),
+    }
+
+
+def extract_physical_info(activity, target_date):
+    if not isinstance(activity, dict):
+        return None
+    for day in activity.get("activityDays", []):
+        if day.get("date") == target_date:
+            p = day.get("physicalInformation") or {}
+            return {
+                "weight_kg": p.get("weight"),
+                "height_cm": p.get("height"),
+                "max_hr_bpm": p.get("maximumHeartRate"),
+                "resting_hr_bpm": p.get("restingHeartRate"),
+                "vo2max": p.get("vo2Max"),
+                "training_background": p.get("trainingBackground"),
+            }
+    return None
+
+
+def extract_activity_summary_v3(activity):
+    if not isinstance(activity, dict) or not activity.get("_available"):
+        return None
+    distance_m = activity.get("distance_from_steps")
+    return {
+        "total_calories_kcal": activity.get("calories"),
+        "active_calories_kcal": activity.get("active_calories"),
+        "steps": activity.get("steps"),
+        "activity_goal_pct": activity.get("daily_activity"),
+        "active_duration": activity.get("active_duration"),
+        "inactive_duration": activity.get("inactive_duration"),
+        "distance_km": round(distance_m / 1000, 3) if isinstance(distance_m, (int, float)) else None,
+        "inactivity_alert_count": activity.get("inactivity_alert_count"),
+    }
+
+
+def extract_nightly_v3(nightly):
+    if not isinstance(nightly, dict) or not nightly.get("_available"):
+        return None
+    return {
+        "nightly_recharge_status": nightly.get("nightly_recharge_status"),
+        "ans_charge": nightly.get("ans_charge"),
+        "ans_charge_status": nightly.get("ans_charge_status"),
+        "night_hr_avg_bpm": nightly.get("heart_rate_avg"),
+        "night_hrv_rmssd_ms": nightly.get("heart_rate_variability_avg"),
+        "breathing_rate_avg": nightly.get("breathing_rate_avg"),
+        "beat_to_beat_avg_ms": nightly.get("beat_to_beat_avg"),
+    }
 
 
 def extract_nightly(nightly):
@@ -282,55 +394,57 @@ def extract_nightly(nightly):
 
 
 
-def collect_key_paths(obj, target_fragments=("step", "activity"), max_items=200):
-    """Collect compact key paths for diagnostics without dumping full raw payloads."""
-    results = []
-
-    def walk(value, path="$"):
-        if len(results) >= max_items:
-            return
-        if isinstance(value, dict):
-            for key, child in value.items():
-                key_l = str(key).lower()
-                child_path = f"{path}.{key}"
-                if any(fragment in key_l for fragment in target_fragments):
-                    preview = child
-                    if isinstance(child, (dict, list)):
-                        if isinstance(child, dict):
-                            preview = {"type": "dict", "keys": list(child.keys())[:20]}
-                        else:
-                            preview = {"type": "list", "len": len(child)}
-                    results.append({"path": child_path, "preview": preview})
-                walk(child, child_path)
-        elif isinstance(value, list):
-            for i, child in enumerate(value[:50]):
-                walk(child, f"{path}[{i}]")
-
-    walk(obj)
-    return results
-
-
 def build_summary(raw):
     trainings = extract_training(raw.get("training"))
     training_calories = [
-        t["calories_kcal"] for t in trainings if isinstance(t.get("calories_kcal"), (int, float))
+        t["calories_kcal"]
+        for t in trainings
+        if isinstance(t.get("calories_kcal"), (int, float))
     ]
+
+    activity_v3 = extract_activity_summary_v3(raw.get("daily_activity_summary_v3"))
+    sleep_v3 = extract_sleep_v3(raw.get("sleep_summary_v3"))
+    nightly_v3 = extract_nightly_v3(raw.get("nightly_recharge_v3"))
+
+    # Prefer Polar's exact v3 daily summary when available; otherwise fall back
+    # to independently extracted v4 step samples.
+    steps = (
+        activity_v3.get("steps")
+        if activity_v3 and activity_v3.get("steps") is not None
+        else extract_steps(raw.get("activity"), raw["date"])
+    )
+
     return {
         "date": raw["date"],
         "fetched_at": raw["fetched_at"],
-        "steps": extract_steps(raw.get("activity"), raw["date"]),
+        "daily_activity": {
+            **(activity_v3 or {}),
+            "steps": steps,
+            "source": "Polar v3 daily activity summary"
+            if activity_v3
+            else "Polar v4 activity samples",
+        },
         "continuous_hr": extract_hr(raw.get("continuous_hr")),
         "training_sessions": trainings,
-        "training_calories_total_kcal": sum(training_calories) if training_calories else 0,
-        "sleep": extract_sleep(raw.get("sleep")),
-        "nightly_recharge": extract_nightly(raw.get("nightly_recharge")),
-        "daily_total_calories_kcal": None,
-        "daily_total_calories_note": (
-            "Nicht berechnet: AccessLink v4 weist im verwendeten Daily-Activity-Endpunkt "
-            "keinen belastbaren einzelnen Gesamt-kcal-Wert aus."
-        ),
+        "training_calories_total_kcal": sum(training_calories)
+        if training_calories
+        else 0,
+        "sleep": sleep_v3,
+        "nightly_recharge": nightly_v3
+        or extract_nightly(raw.get("nightly_recharge")),
+        "physical_info": extract_physical_info(raw.get("activity"), raw["date"]),
+        "source_status": {
+            "daily_activity_v3": (raw.get("daily_activity_summary_v3") or {}).get("_status")
+            if not activity_v3
+            else 200,
+            "sleep_v3": (raw.get("sleep_summary_v3") or {}).get("_status")
+            if not sleep_v3
+            else 200,
+            "nightly_recharge_v3": (raw.get("nightly_recharge_v3") or {}).get("_status")
+            if not nightly_v3
+            else 200,
+        },
     }
-
 
 def target_date() -> date:
     requested = os.getenv("POLAR_DATE", "").strip()
