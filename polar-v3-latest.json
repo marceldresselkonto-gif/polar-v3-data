@@ -1,7 +1,11 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-10-01T20:08:39.008758+02:00",
-  "steps": 14630,
+  "fetched_at": "2026-10-01T20:11:03.909430+02:00",
+  "steps": null,
+  "step_diagnostics": {
+    "by_device": {},
+    "raw_sum": null
+  },
   "continuous_hr": {
     "samples": 10180,
     "min_bpm": 58,
