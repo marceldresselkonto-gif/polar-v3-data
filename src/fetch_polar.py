@@ -51,7 +51,11 @@ def api_get(token: str, path: str, params):
     )
     if response.status_code == 204:
         return None
-    response.raise_for_status()
+    if not response.ok:
+        body = response.text[:2000]
+        raise RuntimeError(
+            f"Polar API {response.status_code} for {response.url}\nResponse: {body}"
+        )
     return response.json()
 
 
