@@ -1,10 +1,502 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-10-01T20:11:03.909430+02:00",
+  "fetched_at": "2026-10-01T20:14:42.908384+02:00",
   "steps": null,
   "step_diagnostics": {
     "by_device": {},
     "raw_sum": null
+  },
+  "activity_diagnostics": {
+    "top_level_keys": [
+      "activityDays"
+    ],
+    "matching_key_paths": [
+      {
+        "path": "$.activityDays",
+        "preview": {
+          "type": "list",
+          "len": 2
+        }
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples",
+        "preview": {
+          "type": "list",
+          "len": 1
+        }
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos",
+        "preview": {
+          "type": "list",
+          "len": 179
+        }
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[0].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[1].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[2].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[3].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[4].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[5].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[6].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[7].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[8].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[9].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[10].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[11].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[12].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[13].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[14].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[15].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[16].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[17].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[18].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[19].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[20].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[21].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[22].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[23].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[24].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[25].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[26].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[27].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[28].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[29].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[30].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[31].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[32].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[33].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[34].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[35].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[36].activityClass",
+        "preview": "ACTIVITY_CLASS_CONTINUOUS_MODERATE"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[37].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[38].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[39].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[40].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[41].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[42].activityClass",
+        "preview": "ACTIVITY_CLASS_CONTINUOUS_MODERATE"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[43].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[44].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[45].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[46].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[47].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[48].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].activityInfos[49].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].inactivityInfos",
+        "preview": {
+          "type": "list",
+          "len": 0
+        }
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].stepSamples",
+        "preview": {
+          "type": "dict",
+          "keys": [
+            "startTime",
+            "interval",
+            "steps"
+          ]
+        }
+      },
+      {
+        "path": "$.activityDays[0].activitiesPerDevice[0].activitySamples[0].stepSamples.steps",
+        "preview": {
+          "type": "list",
+          "len": 1440
+        }
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples",
+        "preview": {
+          "type": "list",
+          "len": 1
+        }
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos",
+        "preview": {
+          "type": "list",
+          "len": 164
+        }
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[0].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[1].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[2].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[3].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[4].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[5].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[6].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[7].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[8].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[9].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[10].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[11].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[12].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[13].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[14].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[15].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[16].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[17].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[18].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[19].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[20].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[21].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[22].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[23].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[24].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[25].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[26].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[27].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[28].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[29].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[30].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[31].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[32].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[33].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[34].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[35].activityClass",
+        "preview": "ACTIVITY_CLASS_CONTINUOUS_MODERATE"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[36].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[37].activityClass",
+        "preview": "ACTIVITY_CLASS_CONTINUOUS_MODERATE"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[38].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[39].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[40].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[41].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[42].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[43].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[44].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[45].activityClass",
+        "preview": "ACTIVITY_CLASS_CONTINUOUS_MODERATE"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[46].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[47].activityClass",
+        "preview": "ACTIVITY_CLASS_SLEEP"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[48].activityClass",
+        "preview": "ACTIVITY_CLASS_LIGHT"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].activityInfos[49].activityClass",
+        "preview": "ACTIVITY_CLASS_SEDENTARY"
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].inactivityInfos",
+        "preview": {
+          "type": "list",
+          "len": 0
+        }
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].stepSamples",
+        "preview": {
+          "type": "dict",
+          "keys": [
+            "startTime",
+            "interval",
+            "steps"
+          ]
+        }
+      },
+      {
+        "path": "$.activityDays[1].activitiesPerDevice[0].activitySamples[0].stepSamples.steps",
+        "preview": {
+          "type": "list",
+          "len": 1198
+        }
+      }
+    ]
   },
   "continuous_hr": {
     "samples": 10180,
