@@ -145,35 +145,35 @@ def fetch_day(token: str, target: date):
     }
 
 
+def _walk(obj):
+    if isinstance(obj, dict):
+        yield obj
+        for value in obj.values():
+            yield from _walk(value)
+    elif isinstance(obj, list):
+        for value in obj:
+            yield from _walk(value)
+
+
 def extract_steps(activity):
-    try:
-        days = activity["activities"]["activityDays"]
-    except (TypeError, KeyError):
-        return None
-    total = 0
-    found = False
-    for day in days:
-        for dev in day.get("activitiesPerDevice", []):
-            for sample in dev.get("activitySamples", []):
-                ss = sample.get("stepSamples") or {}
-                steps = ss.get("steps") or []
-                if steps:
-                    total += sum(x for x in steps if isinstance(x, (int, float)))
-                    found = True
-    return int(total) if found else None
+    """Sum all Polar step sample buckets defensively across API shape variants."""
+    values = []
+    for node in _walk(activity):
+        step_samples = node.get("stepSamples")
+        if isinstance(step_samples, dict):
+            steps = step_samples.get("steps")
+            if isinstance(steps, list):
+                values.extend(x for x in steps if isinstance(x, (int, float)))
+    return int(sum(values)) if values else None
 
 
 def extract_hr(continuous_hr):
-    try:
-        days = continuous_hr["continuousSamples"]["heartRateSamplesPerDay"]
-    except (TypeError, KeyError):
-        return {}
+    """Collect all continuous HR samples defensively across API shape variants."""
     values = []
-    for day in days:
-        for sample in day.get("samples", []):
-            hr = sample.get("heartRate")
-            if isinstance(hr, (int, float)):
-                values.append(hr)
+    for node in _walk(continuous_hr):
+        hr = node.get("heartRate")
+        if isinstance(hr, (int, float)):
+            values.append(hr)
     if not values:
         return {}
     return {
@@ -289,11 +289,11 @@ def main():
     (out / "raw.json").write_text(
         json.dumps(raw, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    (out / "summary.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    summary_text = json.dumps(summary, ensure_ascii=False, indent=2)
+    (out / "summary.json").write_text(summary_text, encoding="utf-8")
+    Path("polar-v3-latest.json").write_text(summary_text, encoding="utf-8")
 
-    print(json.dumps(summary, ensure_ascii=False, indent=2))
+    print(summary_text)
 
 
 if __name__ == "__main__":
