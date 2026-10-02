@@ -41,6 +41,52 @@ jobs:
           POLAR_DATE: ${{ inputs.date }}
         run: python src/fetch_polar.py
 
+      - name: Validate export files
+        env:
+          POLAR_DATE: ${{ inputs.date }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timedelta
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          tz = ZoneInfo("Europe/Berlin")
+          requested = os.getenv("POLAR_DATE", "").strip()
+          if requested:
+              expected = [requested]
+          else:
+              today = datetime.now(tz).date()
+              expected = [
+                  (today - timedelta(days=3)).isoformat(),
+                  (today - timedelta(days=2)).isoformat(),
+                  (today - timedelta(days=1)).isoformat(),
+              ]
+
+          for day in expected:
+              for name in ("raw.json", "summary.json"):
+                  p = Path("data") / day / name
+                  if not p.exists():
+                      raise SystemExit(f"ERROR: expected export missing: {p}")
+                  with p.open(encoding="utf-8") as fh:
+                      payload = json.load(fh)
+                  if payload.get("date") != day:
+                      raise SystemExit(f"ERROR: date mismatch in {p}: {payload.get('date')} != {day}")
+
+          latest = json.loads(Path("polar-v3-latest.json").read_text(encoding="utf-8"))
+          latest_expected = expected[-1]
+          if latest.get("date") != latest_expected:
+              raise SystemExit(
+                  f"ERROR: polar-v3-latest.json points to {latest.get('date')}, expected {latest_expected}"
+              )
+
+          status = latest.get("data_status", {})
+          print(f"Latest day {latest_expected}: {status.get('status', 'unknown')}")
+          if status.get("status") == "provisional":
+              print("WARNING: Polar cloud is not complete yet; a later scheduled run will backfill this day.")
+          PY
+
       - name: Commit changed data
         run: |
           if git diff --quiet -- data/ state/ polar-v3-latest.json 2>/dev/null && [ -z "$(git status --porcelain data/ state/ polar-v3-latest.json 2>/dev/null)" ]; then
