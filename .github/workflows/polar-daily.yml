@@ -91,9 +91,10 @@ jobs:
               )
 
           status = latest.get("data_status", {})
-          print(f"Latest day {latest_expected}: {status.get('status', 'unknown')}")
-          if status.get("status") == "provisional":
-              print("WARNING: Polar cloud is not complete yet; a later scheduled run will backfill this day.")
+          gate = latest.get("closure_gate", {})
+          print(f"Latest day {latest_expected}: data={status.get('status', 'unknown')}, gate={gate.get('status', 'unknown')}")
+          if gate.get("status") != "READY":
+              print(f"WARNING: day close blocked: {gate.get('reason', 'no reason reported')}")
           PY
 
       - name: Commit changed data
