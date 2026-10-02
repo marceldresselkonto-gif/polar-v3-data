@@ -1,6 +1,9 @@
 name: Polar daily export
 
 on:
+  push:
+    paths:
+      - ".polar-trigger"
   workflow_dispatch:
     inputs:
       date:
