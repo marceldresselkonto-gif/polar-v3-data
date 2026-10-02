@@ -4,11 +4,16 @@ on:
   workflow_dispatch:
     inputs:
       date:
-        description: "Optional date YYYY-MM-DD; blank = previous day Europe/Berlin"
+        description: "Optional date YYYY-MM-DD; blank = refresh previous 3 completed days"
         required: false
         type: string
   schedule:
-    - cron: "30 5 * * *"
+    - cron: "30 6 * * *"
+    - cron: "30 12 * * *"
+
+concurrency:
+  group: polar-daily-export
+  cancel-in-progress: false
 
 permissions:
   contents: write
