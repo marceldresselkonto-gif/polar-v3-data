@@ -414,9 +414,27 @@ def build_summary(raw):
         else extract_steps(raw.get("activity"), raw["date"])
     )
 
+    required_daily = {
+        "total_calories_kcal": activity_v3.get("total_calories_kcal") if activity_v3 else None,
+        "steps": steps,
+        "activity_goal_pct": activity_v3.get("activity_goal_pct") if activity_v3 else None,
+    }
+    missing_daily = [k for k, v in required_daily.items() if v is None]
+    data_status = {
+        "daily_energy_complete": len(missing_daily) == 0,
+        "status": "complete" if not missing_daily else "provisional",
+        "missing_required_fields": missing_daily,
+        "note": (
+            "Vortag für Kalorien-/Aktivitätsauswertung vollständig."
+            if not missing_daily
+            else "Polar-Cloud-Daten noch unvollständig; späterer Lauf aktualisiert denselben Tag automatisch."
+        ),
+    }
+
     return {
         "date": raw["date"],
         "fetched_at": raw["fetched_at"],
+        "data_status": data_status,
         "daily_activity": {
             **(activity_v3 or {}),
             "steps": steps,
