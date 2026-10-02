@@ -8,8 +8,14 @@ on:
         required: false
         type: string
   schedule:
-    - cron: "30 6 * * *"
-    - cron: "30 12 * * *"
+    - cron: "30 8 * * *"
+      timezone: "Europe/Berlin"
+    - cron: "30 11 * * *"
+      timezone: "Europe/Berlin"
+    - cron: "30 14 * * *"
+      timezone: "Europe/Berlin"
+    - cron: "30 17 * * *"
+      timezone: "Europe/Berlin"
 
 concurrency:
   group: polar-daily-export
