@@ -1,6 +1,12 @@
 {
   "date": "2026-09-30",
-  "fetched_at": "2026-10-01T20:20:27.975659+02:00",
+  "fetched_at": "2026-10-02T15:36:24.746425+02:00",
+  "data_status": {
+    "daily_energy_complete": true,
+    "status": "complete",
+    "missing_required_fields": [],
+    "note": "Vortag für Kalorien-/Aktivitätsauswertung vollständig."
+  },
   "daily_activity": {
     "total_calories_kcal": 3514,
     "active_calories_kcal": 1455,
@@ -13,9 +19,9 @@
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 10180,
+    "samples": 10703,
     "min_bpm": 58,
-    "avg_bpm": 95.6,
+    "avg_bpm": 94.6,
     "max_bpm": 123
   },
   "training_sessions": [
