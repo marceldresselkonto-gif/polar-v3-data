@@ -464,6 +464,117 @@ def build_summary(raw):
         },
     }
 
+
+def closure_fingerprint(summary):
+    """Fields whose stability indicates that Polar has stopped changing the completed day."""
+    daily = (summary or {}).get("daily_activity") or {}
+    trainings = (summary or {}).get("training_sessions") or []
+    training_fingerprint = [
+        {
+            "id": t.get("id"),
+            "start_time": t.get("start_time"),
+            "stop_time": t.get("stop_time"),
+            "calories_kcal": t.get("calories_kcal"),
+            "hr_avg_bpm": t.get("hr_avg_bpm"),
+            "hr_max_bpm": t.get("hr_max_bpm"),
+        }
+        for t in trainings
+    ]
+    return {
+        "total_calories_kcal": daily.get("total_calories_kcal"),
+        "active_calories_kcal": daily.get("active_calories_kcal"),
+        "steps": daily.get("steps"),
+        "activity_goal_pct": daily.get("activity_goal_pct"),
+        "active_duration": daily.get("active_duration"),
+        "inactive_duration": daily.get("inactive_duration"),
+        "distance_km": daily.get("distance_km"),
+        "training_sessions": training_fingerprint,
+    }
+
+
+def parse_iso(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def apply_closure_gate(summary, previous_summary, min_stable_minutes=30):
+    """
+    Final day closure is allowed only after two complete Polar snapshots are
+    unchanged for at least min_stable_minutes. This prevents closing a day
+    before a late watch->phone->Polar Cloud sync has arrived.
+    """
+    data_status = summary.get("data_status") or {}
+    current_complete = data_status.get("status") == "complete"
+
+    gate = {
+        "status": "WAITING_FOR_POLAR_SYNC",
+        "ready_for_day_close": False,
+        "reason": None,
+        "stable_for_minutes": None,
+        "required_stable_minutes": min_stable_minutes,
+    }
+
+    if not current_complete:
+        gate["status"] = "MISSING_DATA"
+        gate["reason"] = "Polar-Pflichtfelder sind noch unvollständig."
+        summary["closure_gate"] = gate
+        return summary
+
+    if not previous_summary:
+        gate["reason"] = "Erster vollständiger Snapshot; Bestätigung durch einen späteren Abruf fehlt."
+        summary["closure_gate"] = gate
+        return summary
+
+    previous_complete = ((previous_summary.get("data_status") or {}).get("status") == "complete")
+    if not previous_complete:
+        gate["reason"] = "Vorheriger Snapshot war noch unvollständig; Stabilitätsbestätigung fehlt."
+        summary["closure_gate"] = gate
+        return summary
+
+    if closure_fingerprint(summary) != closure_fingerprint(previous_summary):
+        gate["reason"] = "Polar-Daten haben sich seit dem vorherigen Abruf geändert; spätere Synchronisation erkannt."
+        summary["closure_gate"] = gate
+        return summary
+
+    now_ts = parse_iso(summary.get("fetched_at"))
+    prev_ts = parse_iso(previous_summary.get("fetched_at"))
+    if not now_ts or not prev_ts:
+        gate["reason"] = "Abrufzeitpunkte konnten nicht sicher verglichen werden."
+        summary["closure_gate"] = gate
+        return summary
+
+    stable_minutes = (now_ts - prev_ts).total_seconds() / 60
+    gate["stable_for_minutes"] = round(stable_minutes, 1)
+
+    if stable_minutes < min_stable_minutes:
+        gate["reason"] = (
+            f"Daten sind unverändert, aber erst seit {stable_minutes:.1f} Minuten bestätigt; "
+            f"erforderlich sind {min_stable_minutes} Minuten."
+        )
+        summary["closure_gate"] = gate
+        return summary
+
+    gate["status"] = "READY"
+    gate["ready_for_day_close"] = True
+    gate["reason"] = "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt."
+    summary["closure_gate"] = gate
+    return summary
+
+
+def load_previous_summary(target: date):
+    p = Path("data") / target.isoformat() / "summary.json"
+    if not p.exists():
+        return None
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
 def target_dates():
     requested = os.getenv("POLAR_DATE", "").strip()
     if requested:
@@ -493,8 +604,10 @@ def main():
     token = refresh_access_token()
 
     for target in targets:
+        previous_summary = load_previous_summary(target)
         raw = fetch_day(token, target)
         summary = build_summary(raw)
+        summary = apply_closure_gate(summary, previous_summary)
         write_day(target, raw, summary, update_latest=(target == max(targets)))
         print(json.dumps(summary, ensure_ascii=False, indent=2))
 
