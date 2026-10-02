@@ -446,19 +446,19 @@ def build_summary(raw):
         },
     }
 
-def target_date() -> date:
+def target_dates():
     requested = os.getenv("POLAR_DATE", "").strip()
     if requested:
-        return date.fromisoformat(requested)
-    return datetime.now(TZ).date() - timedelta(days=1)
+        return [date.fromisoformat(requested)]
+
+    # Refresh the last three completed calendar days on every automatic run.
+    # This deliberately backfills days that were incomplete in Polar cloud
+    # because the watch did not sync with the phone until later.
+    today = datetime.now(TZ).date()
+    return [today - timedelta(days=3), today - timedelta(days=2), today - timedelta(days=1)]
 
 
-def main():
-    target = target_date()
-    token = refresh_access_token()
-    raw = fetch_day(token, target)
-    summary = build_summary(raw)
-
+def write_day(target: date, raw, summary, update_latest: bool):
     out = Path("data") / target.isoformat()
     out.mkdir(parents=True, exist_ok=True)
     (out / "raw.json").write_text(
@@ -466,9 +466,19 @@ def main():
     )
     summary_text = json.dumps(summary, ensure_ascii=False, indent=2)
     (out / "summary.json").write_text(summary_text, encoding="utf-8")
-    Path("polar-v3-latest.json").write_text(summary_text, encoding="utf-8")
+    if update_latest:
+        Path("polar-v3-latest.json").write_text(summary_text, encoding="utf-8")
 
-    print(summary_text)
+
+def main():
+    targets = target_dates()
+    token = refresh_access_token()
+
+    for target in targets:
+        raw = fetch_day(token, target)
+        summary = build_summary(raw)
+        write_day(target, raw, summary, update_latest=(target == max(targets)))
+        print(json.dumps(summary, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
