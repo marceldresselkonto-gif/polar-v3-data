@@ -1,6 +1,6 @@
 {
   "date": "2026-10-04",
-  "fetched_at": "2026-10-05T11:35:48.308172+02:00",
+  "fetched_at": "2026-10-05T17:11:24.676407+02:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -19,9 +19,9 @@
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 7297,
+    "samples": 8828,
     "min_bpm": 48,
-    "avg_bpm": 87.7,
+    "avg_bpm": 88.6,
     "max_bpm": 106
   },
   "training_sessions": [],
@@ -68,10 +68,10 @@
     "nightly_recharge_v3": 200
   },
   "closure_gate": {
-    "status": "WAITING_FOR_POLAR_SYNC",
-    "ready_for_day_close": false,
-    "reason": "Erster vollständiger Snapshot; Bestätigung durch einen späteren Abruf fehlt.",
-    "stable_for_minutes": null,
+    "status": "READY",
+    "ready_for_day_close": true,
+    "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
+    "stable_for_minutes": 335.6,
     "required_stable_minutes": 30
   }
 }
