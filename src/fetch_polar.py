@@ -611,6 +611,31 @@ def main():
         write_day(target, raw, summary, update_latest=(target == max(targets)))
         print(json.dumps(summary, ensure_ascii=False, indent=2))
 
+    # Intraday data is an additional, provisional snapshot. Keep the completed
+    # day export and polar-v3-latest.json unchanged.
+    if not os.getenv("POLAR_DATE", "").strip():
+        target = datetime.now(TZ).date()
+        try:
+            raw = fetch_day(token, target)
+            summary = build_summary(raw)
+            summary["data_status"].update({
+                "daily_energy_complete": False,
+                "status": "provisional",
+                "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen.",
+            })
+            summary["closure_gate"] = {
+                "status": "DAY_IN_PROGRESS",
+                "ready_for_day_close": False,
+                "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+                "stable_for_minutes": None,
+                "required_stable_minutes": 30,
+            }
+            write_day(target, raw, summary, update_latest=False)
+            print(json.dumps(summary, ensure_ascii=False, indent=2))
+        except Exception as exc:
+            # A missing current-day endpoint must not discard completed days.
+            print(f"WARNING: intraday export unavailable ({type(exc).__name__}).")
+
 
 if __name__ == "__main__":
     main()
