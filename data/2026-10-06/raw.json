@@ -1,6 +1,6 @@
 {
   "date": "2026-10-06",
-  "fetched_at": "2026-10-06T15:32:43.396828+02:00",
+  "fetched_at": "2026-10-06T18:05:29.637151+02:00",
   "activity": {
     "activityDays": [
       {
@@ -627,6 +627,86 @@
                   {
                     "activityClass": "ACTIVITY_CLASS_SEDENTARY",
                     "time": "15:16:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "15:20:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "15:26:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "15:35:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "15:37:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "15:55:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "15:56:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "16:03:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "16:05:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "16:11:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "16:14:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "16:21:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "16:27:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "16:31:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "16:36:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "17:13:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "17:17:00",
                     "factor": 1.0
                   }
                 ],
@@ -1545,6 +1625,126 @@
                     0,
                     0,
                     0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    4,
+                    20,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
                     0,
                     0,
                     0,
@@ -3401,7 +3601,248 @@
                     1.375,
                     1.0,
                     1.125,
-                    1.5
+                    1.5,
+                    1.5,
+                    1.25,
+                    1.375,
+                    1.625,
+                    1.5,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.375,
+                    1.125,
+                    1.375,
+                    1.125,
+                    1.25,
+                    1.25,
+                    1.0,
+                    1.5,
+                    1.75,
+                    2.5,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.125,
+                    2.0,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.0,
+                    1.5,
+                    1.0,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.625,
+                    1.25,
+                    1.25,
+                    1.0,
+                    1.25,
+                    1.5,
+                    1.625,
+                    1.25,
+                    1.125,
+                    1.5,
+                    1.125,
+                    1.375,
+                    1.375,
+                    1.625,
+                    1.125,
+                    1.0,
+                    1.375,
+                    2.125,
+                    2.0,
+                    1.125,
+                    1.25,
+                    1.5,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.375,
+                    1.25,
+                    1.25,
+                    1.25,
+                    1.375,
+                    1.375,
+                    1.875,
+                    2.0,
+                    1.75,
+                    1.25,
+                    1.0,
+                    1.125,
+                    1.25,
+                    1.5,
+                    1.375,
+                    1.25,
+                    1.25,
+                    1.625,
+                    1.375,
+                    1.375,
+                    1.5,
+                    1.75,
+                    2.0,
+                    1.625,
+                    1.375,
+                    1.875,
+                    1.75,
+                    1.625,
+                    1.75,
+                    1.375,
+                    1.125,
+                    1.625,
+                    1.25,
+                    1.625,
+                    1.0,
+                    1.25,
+                    1.5,
+                    1.5,
+                    1.875,
+                    1.125,
+                    1.25,
+                    1.625,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.5,
+                    1.375,
+                    1.125,
+                    1.25,
+                    1.0,
+                    1.125,
+                    1.5,
+                    1.25,
+                    1.25,
+                    1.125,
+                    1.5,
+                    1.125,
+                    1.125,
+                    1.375,
+                    1.0,
+                    1.875,
+                    1.75,
+                    1.375,
+                    1.875,
+                    2.25,
+                    2.25,
+                    2.375,
+                    2.625,
+                    1.25,
+                    2.25,
+                    1.5,
+                    1.375,
+                    1.5,
+                    2.0,
+                    1.375,
+                    1.0,
+                    1.0,
+                    1.5,
+                    1.25,
+                    1.375,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.25,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.375,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.375,
+                    1.375,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.25,
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.0,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.625,
+                    1.25,
+                    1.25,
+                    1.5,
+                    1.25,
+                    1.375,
+                    1.25,
+                    1.25,
+                    1.875,
+                    1.25,
+                    1.375,
+                    1.5,
+                    1.75,
+                    1.125,
+                    1.625,
+                    1.25,
+                    1.0,
+                    1.125,
+                    1.25,
+                    1.75,
+                    1.5,
+                    1.625,
+                    1.25,
+                    1.375,
+                    1.5,
+                    1.125,
+                    1.125,
+                    1.5,
+                    1.625,
+                    1.25,
+                    1.5,
+                    1.125,
+                    1.0,
+                    1.25,
+                    1.25,
+                    1.75,
+                    1.875,
+                    1.875,
+                    1.375,
+                    2.125,
+                    1.5,
+                    2.125,
+                    1.375,
+                    1.5,
+                    1.25,
+                    1.625,
+                    1.25,
+                    1.5,
+                    1.25,
+                    1.0,
+                    1.25,
+                    1.25,
+                    1.25,
+                    1.125,
+                    1.25,
+                    1.375,
+                    1.25,
+                    1.5,
+                    1.0,
+                    1.375,
+                    1.625,
+                    1.625
                   ]
                 }
               }
@@ -3418,7 +3859,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 556971498,
+        "state": 849714674,
         "samples": [
           {
             "heartRate": 75,
@@ -29714,6 +30155,126 @@
             "heartRate": 88,
             "offsetMillis": 54964000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 55264000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 55565000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 55865000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 56166000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 56466000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 56766000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 57066000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 57366000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 90,
+            "offsetMillis": 57666000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 90,
+            "offsetMillis": 57966000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 58266000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 58566000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 58866000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 59166000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 84,
+            "offsetMillis": 59466000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 59766000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 60067000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 60367000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 82,
+            "offsetMillis": 60667000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 90,
+            "offsetMillis": 60967000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 91,
+            "offsetMillis": 61267000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 61567000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 61867000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 62167000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -30221,20 +30782,20 @@
   },
   "daily_activity_summary_v3": {
     "start_time": "2026-10-06T00:00",
-    "end_time": "2026-10-06T15:20:30",
-    "active_duration": "PT4H49M30S",
-    "inactive_duration": "PT3H52M30S",
-    "daily_activity": 99.79,
-    "calories": 2612,
-    "active_calories": 1294,
-    "steps": 7423,
+    "end_time": "2026-10-06T17:21",
+    "active_duration": "PT5H5M30S",
+    "inactive_duration": "PT5H25M",
+    "daily_activity": 99.96,
+    "calories": 2858,
+    "active_calories": 1361,
+    "steps": 7465,
     "inactivity_alert_count": 0,
-    "distance_from_steps": 4582.89,
+    "distance_from_steps": 4603.79,
     "samples": {
       "date": "2026-10-06",
       "steps": {
         "interval_ms": 60000,
-        "total_steps": 7423,
+        "total_steps": 7465,
         "samples": [
           {
             "steps": 0,
@@ -31531,6 +32092,58 @@
           {
             "steps": 0,
             "timestamp": "2026-10-06T14:16"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-10-06T15:29"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-06T15:30"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-06T16:07"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-06T16:08"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-06T16:25"
+          },
+          {
+            "steps": 4,
+            "timestamp": "2026-10-06T16:26"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-06T16:27"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-06T16:28"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-06T16:29"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-06T16:34"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-06T16:35"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-06T17:09"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-06T17:10"
           }
         ]
       },
@@ -32006,6 +32619,70 @@
           },
           {
             "timestamp": "2026-10-06T15:16",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T15:20:30",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-10-06T15:26:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T15:35:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T15:37",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T15:55:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T15:56:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T16:03:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T16:05",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T16:11",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T16:14",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T16:21",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-10-06T16:27",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T16:31",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T16:36:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-06T17:13:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-06T17:17",
             "zone": "SEDENTARY"
           }
         ]
