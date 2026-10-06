@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "fetched_at": "2026-10-06T13:06:50.712232+02:00",
+  "fetched_at": "2026-10-06T13:15:48.253606+02:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -46,8 +46,8 @@
   "closure_gate": {
     "status": "WAITING_FOR_POLAR_SYNC",
     "ready_for_day_close": false,
-    "reason": "Polar-Daten haben sich seit dem vorherigen Abruf geändert; spätere Synchronisation erkannt.",
-    "stable_for_minutes": null,
+    "reason": "Daten sind unverändert, aber erst seit 9.0 Minuten bestätigt; erforderlich sind 30 Minuten.",
+    "stable_for_minutes": 9.0,
     "required_stable_minutes": 30
   }
 }
