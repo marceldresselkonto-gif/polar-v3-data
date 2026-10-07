@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "fetched_at": "2026-10-07T21:03:34.802026+02:00",
+  "fetched_at": "2026-10-07T22:42:27.418065+02:00",
   "activity": {
     "activityDays": [
       {
@@ -879,6 +879,31 @@
                   {
                     "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
                     "time": "20:38:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "20:45:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "20:51:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "20:53:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "20:54:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "21:40:30",
                     "factor": 1.0
                   }
                 ],
@@ -2130,6 +2155,67 @@
                     8,
                     0,
                     0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    6,
+                    0,
+                    6,
+                    28,
+                    44,
+                    22,
+                    20,
+                    14,
+                    12,
+                    22,
+                    20,
+                    22,
+                    28,
                     2
                   ]
                 },
@@ -4626,7 +4712,128 @@
                     2.125,
                     2.125,
                     2.125,
-                    2.0
+                    2.0,
+                    1.0,
+                    1.75,
+                    1.75,
+                    1.75,
+                    1.75,
+                    1.75,
+                    1.875,
+                    1.5,
+                    1.625,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.375,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.75,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.375,
+                    1.625,
+                    1.375,
+                    1.625,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.625,
+                    1.5,
+                    1.375,
+                    1.5,
+                    1.375,
+                    1.375,
+                    1.5,
+                    1.5,
+                    1.375,
+                    1.5,
+                    1.375,
+                    1.375,
+                    1.375,
+                    1.5,
+                    1.5,
+                    1.375,
+                    1.5,
+                    1.375,
+                    1.5,
+                    1.625,
+                    1.5,
+                    1.5,
+                    1.625,
+                    1.625,
+                    1.625,
+                    1.5,
+                    3.375,
+                    3.625,
+                    2.0,
+                    3.375,
+                    2.625,
+                    3.625,
+                    3.375,
+                    2.625,
+                    2.875,
+                    2.625,
+                    2.5,
+                    3.75,
+                    3.375,
+                    2.375,
+                    2.375,
+                    3.5,
+                    3.375,
+                    3.25,
+                    3.0,
+                    2.375,
+                    1.5
                   ]
                 }
               }
@@ -4643,7 +4850,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 1025785813,
+        "state": 988923312,
         "samples": [
           {
             "heartRate": 70,
@@ -19124,6 +19331,66 @@
             "heartRate": 78,
             "offsetMillis": 74572000,
             "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 74872000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 83,
+            "offsetMillis": 75172000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 81,
+            "offsetMillis": 75472000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 80,
+            "offsetMillis": 75773000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 81,
+            "offsetMillis": 76072000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 79,
+            "offsetMillis": 76373000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 76674000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 79,
+            "offsetMillis": 76974000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 77275000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 77575000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 82,
+            "offsetMillis": 77875000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 84,
+            "offsetMillis": 78176000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -19713,20 +19980,20 @@
   },
   "daily_activity_summary_v3": {
     "start_time": "2026-10-07T00:00",
-    "end_time": "2026-10-07T20:45",
-    "active_duration": "PT4H21M30S",
-    "inactive_duration": "PT8H35M",
-    "daily_activity": 39.95,
-    "calories": 2723,
-    "active_calories": 928,
-    "steps": 7222,
+    "end_time": "2026-10-07T21:45:30",
+    "active_duration": "PT4H28M",
+    "inactive_duration": "PT9H23M",
+    "daily_activity": 41.82,
+    "calories": 2882,
+    "active_calories": 997,
+    "steps": 7470,
     "inactivity_alert_count": 0,
-    "distance_from_steps": 4546.16,
+    "distance_from_steps": 4669.52,
     "samples": {
       "date": "2026-10-07",
       "steps": {
         "interval_ms": 60000,
-        "total_steps": 7222,
+        "total_steps": 7470,
         "samples": [
           {
             "steps": 0,
@@ -21147,6 +21414,70 @@
           {
             "steps": 2,
             "timestamp": "2026-10-07T20:43"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-07T20:44"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-07T21:30"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-07T21:31"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-07T21:32"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-07T21:33"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-10-07T21:34"
+          },
+          {
+            "steps": 44,
+            "timestamp": "2026-10-07T21:35"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-10-07T21:36"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-07T21:37"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-07T21:38"
+          },
+          {
+            "steps": 12,
+            "timestamp": "2026-10-07T21:39"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-10-07T21:40"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-07T21:41"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-10-07T21:42"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-10-07T21:43"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-07T21:44"
           }
         ]
       },
@@ -21831,6 +22162,26 @@
           {
             "timestamp": "2026-10-07T20:38",
             "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-10-07T20:45:30",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-10-07T20:51:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-07T20:53:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-07T20:54:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-07T21:40:30",
+            "zone": "LIGHT"
           }
         ]
       },
