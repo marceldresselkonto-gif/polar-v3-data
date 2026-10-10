@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "fetched_at": "2026-10-10T17:29:30.728690+02:00",
+  "fetched_at": "2026-10-10T19:26:48.577523+02:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -19,9 +19,9 @@
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 7824,
+    "samples": 9041,
     "min_bpm": 45,
-    "avg_bpm": 84.8,
+    "avg_bpm": 84.7,
     "max_bpm": 125
   },
   "training_sessions": [],
@@ -71,7 +71,7 @@
     "status": "READY",
     "ready_for_day_close": true,
     "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 151.8,
+    "stable_for_minutes": 117.3,
     "required_stable_minutes": 30
   }
 }

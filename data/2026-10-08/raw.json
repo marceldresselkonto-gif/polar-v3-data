@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "fetched_at": "2026-10-10T17:29:26.956728+02:00",
+  "fetched_at": "2026-10-10T19:26:43.442557+02:00",
   "activity": {
     "activityDays": [
       {
@@ -65804,6 +65804,22 @@
           },
           {
             "startOffset": 54496921,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 64876921,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 64936921,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 65146921,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 65296921,
             "newState": "SLEEP_WAKE_STATE_WAKE"
           }
         ]
