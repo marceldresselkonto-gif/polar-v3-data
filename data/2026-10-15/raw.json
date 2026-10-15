@@ -1,6 +1,6 @@
 {
   "date": "2026-10-15",
-  "fetched_at": "2026-10-15T19:17:32.992611+02:00",
+  "fetched_at": "2026-10-15T21:18:30.094673+02:00",
   "activity": {
     "activityDays": [
       {
@@ -847,6 +847,26 @@
                   {
                     "activityClass": "ACTIVITY_CLASS_SEDENTARY",
                     "time": "18:52:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "18:57:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "19:03:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "19:04:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "19:56:00",
                     "factor": 1.0
                   }
                 ],
@@ -1991,7 +2011,67 @@
                     0,
                     0,
                     0,
-                    0
+                    0,
+                    0,
+                    6,
+                    12,
+                    16,
+                    14,
+                    0,
+                    8,
+                    8,
+                    14,
+                    16,
+                    28,
+                    16,
+                    20,
+                    20,
+                    16,
+                    28,
+                    0,
+                    20,
+                    20,
+                    14,
+                    0,
+                    0,
+                    2,
+                    14,
+                    16,
+                    14,
+                    28,
+                    10,
+                    4,
+                    16,
+                    12,
+                    16,
+                    10,
+                    16,
+                    6,
+                    0,
+                    14,
+                    14,
+                    2,
+                    0,
+                    0,
+                    6,
+                    20,
+                    20,
+                    6,
+                    6,
+                    22,
+                    36,
+                    6,
+                    0,
+                    8,
+                    8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    8
                   ]
                 },
                 "metSamples": {
@@ -4272,7 +4352,127 @@
                     1.0,
                     1.0,
                     1.0,
-                    1.0
+                    1.0,
+                    1.0,
+                    1.0,
+                    2.125,
+                    2.625,
+                    3.125,
+                    3.0,
+                    3.5,
+                    2.875,
+                    2.625,
+                    2.375,
+                    1.0,
+                    2.875,
+                    2.0,
+                    1.125,
+                    2.75,
+                    3.375,
+                    2.875,
+                    3.25,
+                    2.625,
+                    2.875,
+                    2.75,
+                    3.375,
+                    2.75,
+                    3.375,
+                    3.0,
+                    2.5,
+                    3.625,
+                    3.0,
+                    3.0,
+                    3.25,
+                    3.75,
+                    2.625,
+                    2.0,
+                    2.875,
+                    3.0,
+                    2.75,
+                    2.75,
+                    2.625,
+                    3.125,
+                    3.75,
+                    1.5,
+                    1.25,
+                    1.625,
+                    2.875,
+                    2.0,
+                    2.875,
+                    2.75,
+                    3.25,
+                    3.375,
+                    2.25,
+                    3.5,
+                    2.5,
+                    3.125,
+                    3.5,
+                    2.5,
+                    3.0,
+                    1.875,
+                    2.625,
+                    2.625,
+                    2.375,
+                    2.5,
+                    2.75,
+                    3.125,
+                    3.125,
+                    3.0,
+                    2.25,
+                    3.125,
+                    2.0,
+                    2.625,
+                    2.5,
+                    2.0,
+                    2.125,
+                    2.375,
+                    2.625,
+                    3.0,
+                    2.25,
+                    2.0,
+                    2.375,
+                    2.25,
+                    1.5,
+                    1.5,
+                    1.5,
+                    2.375,
+                    3.125,
+                    2.625,
+                    2.75,
+                    2.375,
+                    3.125,
+                    2.0,
+                    2.625,
+                    1.75,
+                    2.25,
+                    2.625,
+                    2.75,
+                    3.25,
+                    3.25,
+                    1.5,
+                    2.875,
+                    1.875,
+                    2.0,
+                    2.25,
+                    3.375,
+                    2.5,
+                    1.875,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.0,
+                    1.125,
+                    1.25,
+                    2.5,
+                    3.5
                   ]
                 }
               }
@@ -4289,7 +4489,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 1380502857,
+        "state": 1477655987,
         "samples": [
           {
             "heartRate": 67,
@@ -21335,6 +21535,66 @@
             "heartRate": 85,
             "offsetMillis": 68017000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 82,
+            "offsetMillis": 68318000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 81,
+            "offsetMillis": 68617000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 68918000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 69218000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 84,
+            "offsetMillis": 69518000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 79,
+            "offsetMillis": 69817000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 81,
+            "offsetMillis": 70118000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 70418000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 80,
+            "offsetMillis": 70718000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 71019000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 71319000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 71619000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -21718,6 +21978,34 @@
           {
             "startOffset": 66816463,
             "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 66906463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 67086463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 67206463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 67866463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 67956463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 68076463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 68256463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
           }
         ]
       }
@@ -21751,20 +22039,20 @@
   },
   "daily_activity_summary_v3": {
     "start_time": "2026-10-15T00:00",
-    "end_time": "2026-10-15T18:57:30",
-    "active_duration": "PT6H46M",
-    "inactive_duration": "PT3H51M",
-    "daily_activity": 103.93,
-    "calories": 3127,
-    "active_calories": 1499,
-    "steps": 8237,
+    "end_time": "2026-10-15T19:57:30",
+    "active_duration": "PT7H37M30S",
+    "inactive_duration": "PT3H53M30S",
+    "daily_activity": 110.25,
+    "calories": 3343,
+    "active_calories": 1626,
+    "steps": 8853,
     "inactivity_alert_count": 0,
-    "distance_from_steps": 5089.55,
+    "distance_from_steps": 5395.98,
     "samples": {
       "date": "2026-10-15",
       "steps": {
         "interval_ms": 60000,
-        "total_steps": 8237,
+        "total_steps": 8853,
         "samples": [
           {
             "steps": 0,
@@ -23077,6 +23365,182 @@
           {
             "steps": 0,
             "timestamp": "2026-10-15T18:46"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-15T18:58"
+          },
+          {
+            "steps": 12,
+            "timestamp": "2026-10-15T18:59"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:00"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:01"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:02"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-10-15T19:03"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:05"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:06"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-10-15T19:07"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:08"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-15T19:09"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:11"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-10-15T19:12"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:13"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-15T19:14"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:16"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:17"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-15T19:19"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:20"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:21"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:22"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-10-15T19:23"
+          },
+          {
+            "steps": 10,
+            "timestamp": "2026-10-15T19:24"
+          },
+          {
+            "steps": 4,
+            "timestamp": "2026-10-15T19:25"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:26"
+          },
+          {
+            "steps": 12,
+            "timestamp": "2026-10-15T19:27"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:28"
+          },
+          {
+            "steps": 10,
+            "timestamp": "2026-10-15T19:29"
+          },
+          {
+            "steps": 16,
+            "timestamp": "2026-10-15T19:30"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-15T19:31"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:32"
+          },
+          {
+            "steps": 14,
+            "timestamp": "2026-10-15T19:33"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-10-15T19:35"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:36"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-15T19:38"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-10-15T19:39"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-15T19:41"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-10-15T19:43"
+          },
+          {
+            "steps": 36,
+            "timestamp": "2026-10-15T19:44"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-10-15T19:45"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:46"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-10-15T19:47"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-10-15T19:49"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-10-15T19:56"
           }
         ]
       },
@@ -23728,6 +24192,22 @@
           },
           {
             "timestamp": "2026-10-15T18:52:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-15T18:57:30",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-10-15T19:03:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-10-15T19:04:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-10-15T19:56",
             "zone": "SEDENTARY"
           }
         ]
