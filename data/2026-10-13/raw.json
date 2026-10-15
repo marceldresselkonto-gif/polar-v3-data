@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "fetched_at": "2026-10-14T21:35:15.494989+02:00",
+  "fetched_at": "2026-10-15T13:01:12.208044+02:00",
   "activity": {
     "activityDays": [
       {
@@ -6280,6 +6280,96 @@
                     "activityClass": "ACTIVITY_CLASS_LIGHT",
                     "time": "20:59:00",
                     "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "21:02:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "21:08:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "21:08:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "21:16:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "22:03:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "22:08:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "22:14:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "22:15:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "22:22:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "22:23:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "22:26:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "22:27:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "22:28:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "22:31:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "23:09:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "23:11:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "23:40:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "23:42:00",
+                    "factor": 1.0
                   }
                 ],
                 "inactivityInfos": [],
@@ -7548,7 +7638,185 @@
                     22,
                     68,
                     44,
-                    28
+                    28,
+                    116,
+                    108,
+                    92,
+                    68,
+                    68,
+                    109,
+                    113,
+                    22,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    4,
+                    4,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    14,
+                    0,
+                    14,
+                    0,
+                    0,
+                    0,
+                    10,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    4,
+                    0,
+                    0,
+                    0,
+                    36,
+                    14,
+                    28,
+                    12,
+                    6,
+                    0,
+                    0,
+                    8,
+                    28,
+                    10,
+                    4,
+                    6,
+                    0,
+                    0,
+                    0,
+                    2,
+                    22,
+                    14,
+                    28,
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
                   ]
                 },
                 "metSamples": {
@@ -10079,7 +10347,362 @@
                     3.875,
                     3.625,
                     3.25,
-                    4.125
+                    4.125,
+                    4.75,
+                    4.75,
+                    4.5,
+                    4.75,
+                    5.0,
+                    3.375,
+                    4.0,
+                    5.125,
+                    4.375,
+                    4.75,
+                    5.5,
+                    4.875,
+                    5.25,
+                    4.5,
+                    2.875,
+                    2.25,
+                    2.0,
+                    2.125,
+                    2.25,
+                    2.0,
+                    1.75,
+                    2.25,
+                    1.75,
+                    1.875,
+                    1.875,
+                    1.625,
+                    2.0,
+                    2.25,
+                    1.875,
+                    2.0,
+                    1.875,
+                    2.0,
+                    2.0,
+                    2.25,
+                    2.0,
+                    1.75,
+                    2.375,
+                    1.875,
+                    2.25,
+                    2.375,
+                    1.875,
+                    1.875,
+                    2.0,
+                    2.125,
+                    2.25,
+                    2.0,
+                    2.0,
+                    1.875,
+                    1.875,
+                    1.75,
+                    1.875,
+                    1.875,
+                    1.875,
+                    1.875,
+                    1.75,
+                    1.75,
+                    1.875,
+                    1.75,
+                    2.0,
+                    2.125,
+                    2.0,
+                    1.75,
+                    2.0,
+                    2.0,
+                    2.125,
+                    2.25,
+                    2.125,
+                    2.0,
+                    2.0,
+                    2.125,
+                    2.125,
+                    2.125,
+                    2.0,
+                    2.375,
+                    1.875,
+                    1.75,
+                    1.75,
+                    2.0,
+                    2.25,
+                    2.25,
+                    2.0,
+                    1.875,
+                    1.875,
+                    2.0,
+                    1.5,
+                    1.75,
+                    2.125,
+                    2.25,
+                    2.125,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    1.75,
+                    1.75,
+                    1.75,
+                    1.875,
+                    2.0,
+                    2.0,
+                    2.0,
+                    1.875,
+                    1.75,
+                    1.875,
+                    1.75,
+                    1.875,
+                    1.875,
+                    1.875,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.375,
+                    1.875,
+                    2.375,
+                    2.0,
+                    1.75,
+                    1.875,
+                    2.75,
+                    1.125,
+                    1.0,
+                    2.625,
+                    4.5,
+                    3.125,
+                    3.0,
+                    2.75,
+                    3.25,
+                    3.25,
+                    1.875,
+                    3.0,
+                    2.375,
+                    1.875,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.75,
+                    2.5,
+                    3.125,
+                    3.125,
+                    3.625,
+                    2.0,
+                    1.625,
+                    2.625,
+                    3.0,
+                    2.25,
+                    1.125,
+                    1.0,
+                    2.125,
+                    1.75,
+                    1.875,
+                    1.5,
+                    1.625,
+                    1.625,
+                    2.125,
+                    3.125,
+                    3.0,
+                    2.375,
+                    3.5,
+                    4.0,
+                    3.875,
+                    2.125,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.25,
+                    1.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    1.25,
+                    1.25,
+                    1.25,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    1.5,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.25,
+                    2.25,
+                    2.375,
+                    2.5,
+                    1.25,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875
                   ]
                 }
               }
@@ -24960,7 +25583,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 1940898526,
+        "state": 679926818,
         "samples": [
           {
             "heartRate": 76,
@@ -46046,6 +46669,2571 @@
             "heartRate": 70,
             "offsetMillis": 75507000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75783000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75784000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75785000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75786000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75787000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75788000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75789000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75790000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75791000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75792000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75793000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75794000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 75795000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75796000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75797000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75798000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75799000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75800000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75801000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75802000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75803000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75804000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75805000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75806000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75807000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75808000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75809000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75810000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75811000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75812000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75813000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75814000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75815000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75816000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75817000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75818000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75819000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75820000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 75821000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75822000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75823000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75824000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75825000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75826000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75827000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75828000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75829000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75830000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75831000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75832000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75833000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75834000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75835000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75836000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75837000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75838000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75839000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75840000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75841000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75842000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75843000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75844000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75845000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75846000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75847000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75848000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75849000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75850000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75851000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75852000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75853000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75854000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75855000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75856000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75857000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 75858000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75859000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75860000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75861000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75862000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75863000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75864000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75865000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75866000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75867000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75868000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75869000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75870000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75871000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75872000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75873000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75874000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75875000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75876000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75877000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 75878000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75879000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75880000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75881000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75882000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75883000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75884000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75885000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75886000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75887000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75888000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75889000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75890000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75891000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75892000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75893000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75894000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75895000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75896000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75897000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75898000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75899000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75900000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75901000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75902000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75903000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75904000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75905000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75906000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75907000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75908000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75909000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75910000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75911000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75912000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75913000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75914000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75915000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75916000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75917000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75918000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75919000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75920000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75921000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75922000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75923000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75924000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75925000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75926000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75927000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75928000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75929000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75930000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75931000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75932000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75933000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75934000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75935000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75936000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75937000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75938000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75939000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75940000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75941000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75942000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75943000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75944000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75945000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75946000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75947000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75948000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75949000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75950000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75951000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75952000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75953000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75954000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75955000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75956000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75957000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75958000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75959000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75960000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75961000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75962000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75963000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75964000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75965000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75966000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75967000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75968000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75969000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75970000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75971000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75972000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75973000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75974000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75975000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75976000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75977000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75978000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75979000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75980000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75981000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75982000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75983000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75984000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75985000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75986000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75987000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75988000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75989000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75990000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75991000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75992000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75993000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75994000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75995000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75996000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75997000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75998000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 75999000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76000000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76001000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76002000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76003000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76004000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76005000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76006000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76007000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76008000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76009000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76010000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76011000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76012000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76013000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76014000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76015000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76016000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76017000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76018000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76019000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76020000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76021000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76022000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76023000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76024000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76025000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76026000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76027000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76028000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76029000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76030000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76031000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76032000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76033000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76034000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76035000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76036000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76037000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76038000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76039000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76040000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76041000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76042000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76043000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76044000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76045000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76046000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76047000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76048000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76049000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76050000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76051000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76052000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76053000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76054000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76055000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76056000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76057000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76058000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76059000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76060000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76061000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76062000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76063000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76064000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76065000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76066000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76067000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76068000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76069000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76070000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76071000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76072000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76073000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76074000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76075000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76076000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76077000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76078000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76079000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76080000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76081000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76082000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76083000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76084000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76085000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76086000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76087000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76088000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76089000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76090000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76091000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76092000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76093000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76094000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76095000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76096000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76097000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76098000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76099000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76100000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76101000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76102000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76103000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76104000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76105000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76106000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76107000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76108000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76109000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76110000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76111000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76112000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76113000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76114000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76115000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76116000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76117000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76118000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76119000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76120000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76121000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76122000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76123000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76124000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76125000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76126000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76127000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76128000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76129000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76130000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76131000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76132000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76133000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76134000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76135000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76136000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76137000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76138000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76139000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 76140000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76141000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76142000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76143000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76144000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76145000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76146000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76147000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76148000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76149000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76150000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76151000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76152000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76153000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76154000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76155000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76156000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76157000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76158000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76159000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76160000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76161000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76162000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76163000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76164000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76165000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76166000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76167000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76168000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76169000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76170000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76171000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76172000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76173000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76174000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76175000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76176000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76177000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76178000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76179000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76180000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76181000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76182000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76183000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76184000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76185000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76186000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76187000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76188000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76189000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76190000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76191000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76192000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76193000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76194000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76195000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76196000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76197000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76198000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76199000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76200000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76201000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76202000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76203000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76204000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76205000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76206000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76207000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76208000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76209000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76210000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76211000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76212000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76213000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76214000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76215000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76216000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76217000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76218000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76219000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76220000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76221000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 76222000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76223000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76224000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76225000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76226000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76227000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76228000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76229000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76230000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76231000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76232000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76233000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76234000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76235000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76236000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76237000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76238000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76239000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76240000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76241000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76242000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76243000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76244000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76245000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76246000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76247000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76248000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76249000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76250000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76251000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76252000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76253000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76254000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76255000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76256000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76257000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76258000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76259000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76260000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76261000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 77,
+            "offsetMillis": 76262000,
+            "triggerType": "TRIGGER_HIGH_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 76562000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 76862000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 77162000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 77462000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 77762000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 78062000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 71,
+            "offsetMillis": 78363000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 78663000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 78964000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 79264000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 71,
+            "offsetMillis": 79565000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 70,
+            "offsetMillis": 79865000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 80166000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 80466000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 70,
+            "offsetMillis": 80766000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 69,
+            "offsetMillis": 81066000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 70,
+            "offsetMillis": 81366000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 81666000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 81966000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 82266000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 82566000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 82867000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 75,
+            "offsetMillis": 83167000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 83467000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 83768000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 76,
+            "offsetMillis": 84067000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 73,
+            "offsetMillis": 84368000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 71,
+            "offsetMillis": 84669000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 74,
+            "offsetMillis": 84969000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 65,
+            "offsetMillis": 85269000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 65,
+            "offsetMillis": 85570000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 65,
+            "offsetMillis": 85870000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 66,
+            "offsetMillis": 86170000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -47358,6 +50546,282 @@
           },
           {
             "startOffset": 74334741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 80694741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 81114741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 81144741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 81324741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 81384741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 81444741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 81624741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 81774741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 82014741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 82164741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 82194741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 82404741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 82524741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 82674741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 82974741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 84504741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 84564741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 84774741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 84924741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          }
+        ]
+      },
+      {
+        "date": "2026-10-15",
+        "deviceReference": {
+          "uuid": "0e030000-0084-0000-0000-00001d96a23a"
+        },
+        "sleepWakeStateChanges": [
+          {
+            "startOffset": 24741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 1614741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 1644741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 5634741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 5814741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 6384741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 6414741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 6564741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 6624741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 7434741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 7494741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 8904741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 8934741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 10434741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 10464741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 10854741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 10884741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 13284741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 13344741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 13464741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 13524741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 13674741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 13734741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 14394741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 14424741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 14994741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 15054741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 15684741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 15714741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 16074741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 17664741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 19584741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 19764741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 21774741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 21804741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 22374741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 22404741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 23394741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 23514741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 23694741,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 25374741,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 25776463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 26136463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 27726463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 27756463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 30246463,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 34326463,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 34416463,
             "newState": "SLEEP_WAKE_STATE_WAKE"
           }
         ]
