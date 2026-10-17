@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-15",
-  "fetched_at": "2026-10-16T20:54:55.438495+02:00",
+  "date": "2026-10-16",
+  "fetched_at": "2026-10-17T13:05:40.691204+02:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -8,67 +8,51 @@
     "note": "Vortag für Kalorien-/Aktivitätsauswertung vollständig."
   },
   "daily_activity": {
-    "total_calories_kcal": 3765,
-    "active_calories_kcal": 1709,
-    "steps": 9267,
-    "activity_goal_pct": 113.58,
-    "active_duration": "PT8H9M",
+    "total_calories_kcal": 3254,
+    "active_calories_kcal": 1203,
+    "steps": 8009,
+    "activity_goal_pct": 53.5,
+    "active_duration": "PT7H30M30S",
     "inactive_duration": "PT4H52M30S",
-    "distance_km": 5.602,
+    "distance_km": 5.031,
     "inactivity_alert_count": 0,
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 7597,
+    "samples": 4393,
     "min_bpm": 52,
-    "avg_bpm": 86.4,
-    "max_bpm": 124
+    "avg_bpm": 85.1,
+    "max_bpm": 103
   },
-  "training_sessions": [
-    {
-      "id": "0e29e9d3-6b9b-7322-98c8-fb0cabd1dbc2",
-      "name": "",
-      "start_time": "2026-10-15T09:52:54",
-      "stop_time": "2026-10-15T11:13:24",
-      "duration_min": 80.4,
-      "calories_kcal": 678,
-      "hr_avg_bpm": 111,
-      "hr_max_bpm": 140,
-      "training_load": null,
-      "training_benefit": "TRAINING_BENEFIT_BASIC_TRAINING",
-      "feeling": null,
-      "product": "Polar Vantage V3",
-      "strength_training_results": []
-    }
-  ],
-  "training_calories_total_kcal": 678,
+  "training_sessions": [],
+  "training_calories_total_kcal": 0,
   "sleep": {
-    "sleep_start_time": "2026-10-14T23:38:26.618+02:00",
-    "sleep_end_time": "2026-10-15T06:29:56.618+02:00",
-    "sleep_score": 60,
+    "sleep_start_time": "2026-10-15T23:08:35.359+02:00",
+    "sleep_end_time": "2026-10-16T05:56:35.359+02:00",
+    "sleep_score": 62,
     "sleep_charge": 2,
     "sleep_rating": 0,
-    "continuity": 3.8,
+    "continuity": 3.4,
     "continuity_class": 3,
-    "total_sleep_min": 368.5,
-    "light_sleep_min": 223.0,
-    "deep_sleep_min": 88.0,
-    "rem_sleep_min": 57.5,
-    "interruptions_min": 43.0,
-    "sleep_cycles": 5,
+    "total_sleep_min": 371.5,
+    "light_sleep_min": 213.0,
+    "deep_sleep_min": 94.5,
+    "rem_sleep_min": 64.0,
+    "interruptions_min": 36.5,
+    "sleep_cycles": 4,
     "sleep_goal_min": 450.0,
-    "duration_score": 70.0417,
-    "solidity_score": 45.2232,
-    "regeneration_score": 70.1614
+    "duration_score": 68.0,
+    "solidity_score": 52.0643,
+    "regeneration_score": 68.6765
   },
   "nightly_recharge": {
     "nightly_recharge_status": 4,
     "ans_charge": 3.1,
     "ans_charge_status": 4,
     "night_hr_avg_bpm": 70,
-    "night_hrv_rmssd_ms": 32,
-    "breathing_rate_avg": 13.0,
-    "beat_to_beat_avg_ms": 847
+    "night_hrv_rmssd_ms": 35,
+    "breathing_rate_avg": 13.4,
+    "beat_to_beat_avg_ms": 850
   },
   "physical_info": {
     "weight_kg": 95,
@@ -84,10 +68,10 @@
     "nightly_recharge_v3": 200
   },
   "closure_gate": {
-    "status": "READY",
-    "ready_for_day_close": true,
-    "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 121.5,
+    "status": "WAITING_FOR_POLAR_SYNC",
+    "ready_for_day_close": false,
+    "reason": "Vorheriger Snapshot war noch unvollständig; Stabilitätsbestätigung fehlt.",
+    "stable_for_minutes": null,
     "required_stable_minutes": 30
   }
 }
