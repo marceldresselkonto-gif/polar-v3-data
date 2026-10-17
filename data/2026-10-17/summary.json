@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "fetched_at": "2026-10-17T13:05:41.793153+02:00",
+  "fetched_at": "2026-10-17T15:04:48.373751+02:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
@@ -8,24 +8,40 @@
     "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
   },
   "daily_activity": {
-    "total_calories_kcal": 1251,
-    "active_calories_kcal": 332,
-    "steps": 1685,
-    "activity_goal_pct": 11.25,
-    "active_duration": "PT2H6M",
-    "inactive_duration": "PT2H26M",
-    "distance_km": 0.886,
+    "total_calories_kcal": 2456,
+    "active_calories_kcal": 1245,
+    "steps": 5605,
+    "activity_goal_pct": 99.65,
+    "active_duration": "PT5H",
+    "inactive_duration": "PT2H41M30S",
+    "distance_km": 3.217,
     "inactivity_alert_count": 0,
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 130,
-    "min_bpm": 62,
-    "avg_bpm": 74.7,
-    "max_bpm": 95
+    "samples": 690,
+    "min_bpm": 60,
+    "avg_bpm": 76.8,
+    "max_bpm": 115
   },
-  "training_sessions": [],
-  "training_calories_total_kcal": 0,
+  "training_sessions": [
+    {
+      "id": "0e2a2cb5-0a9f-1266-869d-3c228a07f25b",
+      "name": "",
+      "start_time": "2026-10-17T12:45:16",
+      "stop_time": "2026-10-17T14:08:34",
+      "duration_min": 83.2,
+      "calories_kcal": 792,
+      "hr_avg_bpm": 120,
+      "hr_max_bpm": 158,
+      "training_load": null,
+      "training_benefit": "TRAINING_BENEFIT_BASIC_AND_STEADY_STATE_TRAINING_LONG",
+      "feeling": null,
+      "product": "Polar Vantage V3",
+      "strength_training_results": []
+    }
+  ],
+  "training_calories_total_kcal": 792,
   "sleep": {
     "sleep_start_time": "2026-10-16T22:11:38.486+02:00",
     "sleep_end_time": "2026-10-17T03:42:38.486+02:00",
