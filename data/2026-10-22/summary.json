@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-22",
+  "fetched_at": "2026-10-22T10:44:06.756658+02:00",
+  "data_status": {
+    "daily_energy_complete": false,
+    "status": "provisional",
+    "missing_required_fields": [
+      "total_calories_kcal",
+      "steps",
+      "activity_goal_pct"
+    ],
+    "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
+  },
+  "daily_activity": {
+    "steps": null,
+    "source": "Polar v4 activity samples"
+  },
+  "continuous_hr": {},
+  "training_sessions": [],
+  "training_calories_total_kcal": 0,
+  "sleep": null,
+  "nightly_recharge": {
+    "nightlyRechargeResults": []
+  },
+  "physical_info": null,
+  "source_status": {
+    "daily_activity_v3": 204,
+    "sleep_v3": 404,
+    "nightly_recharge_v3": 404
+  },
+  "closure_gate": {
+    "status": "DAY_IN_PROGRESS",
+    "ready_for_day_close": false,
+    "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+    "stable_for_minutes": null,
+    "required_stable_minutes": 30
+  }
+}
