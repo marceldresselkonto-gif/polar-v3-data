@@ -1,32 +1,71 @@
 {
   "date": "2026-10-24",
-  "fetched_at": "2026-10-24T15:26:39.028643+02:00",
+  "fetched_at": "2026-10-24T18:11:19.646527+02:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
-    "missing_required_fields": [
-      "total_calories_kcal",
-      "steps",
-      "activity_goal_pct"
-    ],
+    "missing_required_fields": [],
     "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
   },
   "daily_activity": {
-    "steps": null,
-    "source": "Polar v4 activity samples"
+    "total_calories_kcal": 3055,
+    "active_calories_kcal": 1545,
+    "steps": 11506,
+    "activity_goal_pct": 89.59,
+    "active_duration": "PT9H21M",
+    "inactive_duration": "PT1H53M",
+    "distance_km": 6.666,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
   },
-  "continuous_hr": {},
+  "continuous_hr": {
+    "samples": 3880,
+    "min_bpm": 53,
+    "avg_bpm": 81.3,
+    "max_bpm": 100
+  },
   "training_sessions": [],
   "training_calories_total_kcal": 0,
-  "sleep": null,
-  "nightly_recharge": {
-    "nightlyRechargeResults": []
+  "sleep": {
+    "sleep_start_time": "2026-10-24T00:40:59.578+02:00",
+    "sleep_end_time": "2026-10-24T07:26:59.578+02:00",
+    "sleep_score": 60,
+    "sleep_charge": 2,
+    "sleep_rating": 0,
+    "continuity": 3.1,
+    "continuity_class": 3,
+    "total_sleep_min": 355.5,
+    "light_sleep_min": 188.5,
+    "deep_sleep_min": 86.0,
+    "rem_sleep_min": 81.0,
+    "interruptions_min": 50.5,
+    "sleep_cycles": 4,
+    "sleep_goal_min": 450.0,
+    "duration_score": 66.8333,
+    "solidity_score": 39.0616,
+    "regeneration_score": 81.4426
   },
-  "physical_info": null,
+  "nightly_recharge": {
+    "nightly_recharge_status": 3,
+    "ans_charge": 1.9,
+    "ans_charge_status": 3,
+    "night_hr_avg_bpm": 71,
+    "night_hrv_rmssd_ms": 32,
+    "breathing_rate_avg": 13.3,
+    "beat_to_beat_avg_ms": 839
+  },
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
   "source_status": {
-    "daily_activity_v3": 204,
-    "sleep_v3": 404,
-    "nightly_recharge_v3": 404
+    "daily_activity_v3": 200,
+    "sleep_v3": 200,
+    "nightly_recharge_v3": 200
   },
   "closure_gate": {
     "status": "DAY_IN_PROGRESS",
