@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-25",
+  "fetched_at": "2026-10-25T13:42:53.578836+01:00",
+  "data_status": {
+    "daily_energy_complete": false,
+    "status": "provisional",
+    "missing_required_fields": [],
+    "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
+  },
+  "daily_activity": {
+    "total_calories_kcal": 2329,
+    "active_calories_kcal": 1192,
+    "steps": 5059,
+    "activity_goal_pct": 101.72,
+    "active_duration": "PT4H38M30S",
+    "inactive_duration": "PT1H37M30S",
+    "distance_km": 2.927,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
+  },
+  "continuous_hr": {
+    "samples": 2032,
+    "min_bpm": 65,
+    "avg_bpm": 93.9,
+    "max_bpm": 119
+  },
+  "training_sessions": [
+    {
+      "id": "0e2b2abc-e29f-c5b0-8afc-75a1500e5c38",
+      "name": "",
+      "start_time": "2026-10-25T10:47:14",
+      "stop_time": "2026-10-25T12:14:10",
+      "duration_min": 86.8,
+      "calories_kcal": 809,
+      "hr_avg_bpm": 117,
+      "hr_max_bpm": 148,
+      "training_load": null,
+      "training_benefit": "TRAINING_BENEFIT_BASIC_TRAINING_LONG",
+      "feeling": null,
+      "product": "Polar Vantage V3",
+      "strength_training_results": []
+    }
+  ],
+  "training_calories_total_kcal": 809,
+  "sleep": {
+    "sleep_start_time": "2026-10-24T22:48:32.899+01:00",
+    "sleep_end_time": "2026-10-25T06:45:32.899+01:00",
+    "sleep_score": 72,
+    "sleep_charge": 4,
+    "sleep_rating": 0,
+    "continuity": 3.9,
+    "continuity_class": 3,
+    "total_sleep_min": 435.0,
+    "light_sleep_min": 241.5,
+    "deep_sleep_min": 107.5,
+    "rem_sleep_min": 86.0,
+    "interruptions_min": 42.0,
+    "sleep_cycles": 5,
+    "sleep_goal_min": 450.0,
+    "duration_score": 99.25,
+    "solidity_score": 51.8777,
+    "regeneration_score": 74.5013
+  },
+  "nightly_recharge": {
+    "nightly_recharge_status": 5,
+    "ans_charge": 1.6,
+    "ans_charge_status": 3,
+    "night_hr_avg_bpm": 71,
+    "night_hrv_rmssd_ms": 33,
+    "breathing_rate_avg": 13.4,
+    "beat_to_beat_avg_ms": 835
+  },
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
+  "source_status": {
+    "daily_activity_v3": 200,
+    "sleep_v3": 200,
+    "nightly_recharge_v3": 200
+  },
+  "closure_gate": {
+    "status": "DAY_IN_PROGRESS",
+    "ready_for_day_close": false,
+    "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+    "stable_for_minutes": null,
+    "required_stable_minutes": 30
+  }
+}
