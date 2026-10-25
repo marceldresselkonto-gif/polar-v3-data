@@ -1,6 +1,6 @@
 {
   "date": "2026-10-22",
-  "fetched_at": "2026-10-25T13:42:48.437368+01:00",
+  "fetched_at": "2026-10-25T15:28:15.422375+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -71,7 +71,7 @@
     "status": "READY",
     "ready_for_day_close": true,
     "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 1105.0,
+    "stable_for_minutes": 105.4,
     "required_stable_minutes": 30
   }
 }
