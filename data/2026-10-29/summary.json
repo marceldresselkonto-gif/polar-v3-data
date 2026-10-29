@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-29",
+  "fetched_at": "2026-10-29T10:28:38.114659+01:00",
+  "data_status": {
+    "daily_energy_complete": false,
+    "status": "provisional",
+    "missing_required_fields": [],
+    "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
+  },
+  "daily_activity": {
+    "total_calories_kcal": 1257,
+    "active_calories_kcal": 389,
+    "steps": 2008,
+    "activity_goal_pct": 15.68,
+    "active_duration": "PT2H54M30S",
+    "inactive_duration": "PT1H18M30S",
+    "distance_km": 1.155,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
+  },
+  "continuous_hr": {
+    "samples": 603,
+    "min_bpm": 61,
+    "avg_bpm": 76.4,
+    "max_bpm": 85
+  },
+  "training_sessions": [],
+  "training_calories_total_kcal": 0,
+  "sleep": {
+    "sleep_start_time": "2026-10-29T00:05:34.85+01:00",
+    "sleep_end_time": "2026-10-29T06:18:34.85+01:00",
+    "sleep_score": 76,
+    "sleep_charge": 5,
+    "sleep_rating": 0,
+    "continuity": 4.1,
+    "continuity_class": 4,
+    "total_sleep_min": 356.5,
+    "light_sleep_min": 191.5,
+    "deep_sleep_min": 79.5,
+    "rem_sleep_min": 85.5,
+    "interruptions_min": 16.5,
+    "sleep_cycles": 5,
+    "sleep_goal_min": 450.0,
+    "duration_score": 47.5833,
+    "solidity_score": 86.6142,
+    "regeneration_score": 86.4535
+  },
+  "nightly_recharge": {
+    "nightly_recharge_status": 5,
+    "ans_charge": -1.7,
+    "ans_charge_status": 3,
+    "night_hr_avg_bpm": 73,
+    "night_hrv_rmssd_ms": 34,
+    "breathing_rate_avg": 13.7,
+    "beat_to_beat_avg_ms": 820
+  },
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
+  "source_status": {
+    "daily_activity_v3": 200,
+    "sleep_v3": 200,
+    "nightly_recharge_v3": 200
+  },
+  "closure_gate": {
+    "status": "DAY_IN_PROGRESS",
+    "ready_for_day_close": false,
+    "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+    "stable_for_minutes": null,
+    "required_stable_minutes": 30
+  }
+}
