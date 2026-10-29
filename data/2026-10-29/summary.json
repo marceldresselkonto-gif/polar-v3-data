@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "fetched_at": "2026-10-29T10:28:38.114659+01:00",
+  "fetched_at": "2026-10-29T15:36:48.871568+01:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
@@ -8,21 +8,21 @@
     "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
   },
   "daily_activity": {
-    "total_calories_kcal": 1257,
-    "active_calories_kcal": 389,
-    "steps": 2008,
-    "activity_goal_pct": 15.68,
-    "active_duration": "PT2H54M30S",
-    "inactive_duration": "PT1H18M30S",
-    "distance_km": 1.155,
+    "total_calories_kcal": 1941,
+    "active_calories_kcal": 622,
+    "steps": 3937,
+    "activity_goal_pct": 28.74,
+    "active_duration": "PT3H43M30S",
+    "inactive_duration": "PT5H23M30S",
+    "distance_km": 2.568,
     "inactivity_alert_count": 0,
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 603,
+    "samples": 1830,
     "min_bpm": 61,
-    "avg_bpm": 76.4,
-    "max_bpm": 85
+    "avg_bpm": 80.5,
+    "max_bpm": 92
   },
   "training_sessions": [],
   "training_calories_total_kcal": 0,
