@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "fetched_at": "2026-10-30T21:57:59.788905+01:00",
+  "date": "2026-10-30",
+  "fetched_at": "2026-10-31T14:48:53.055480+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -8,51 +8,43 @@
     "note": "Vortag für Kalorien-/Aktivitätsauswertung vollständig."
   },
   "daily_activity": {
-    "total_calories_kcal": 2981,
-    "active_calories_kcal": 937,
-    "steps": 5557,
-    "activity_goal_pct": 40.2,
-    "active_duration": "PT5H57M",
-    "inactive_duration": "PT8H8M30S",
-    "distance_km": 3.606,
+    "total_calories_kcal": 4172,
+    "active_calories_kcal": 2106,
+    "steps": 10131,
+    "activity_goal_pct": 147.11,
+    "active_duration": "PT10H18M",
+    "inactive_duration": "PT5H55M",
+    "distance_km": 6.227,
     "inactivity_alert_count": 0,
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 9749,
+    "samples": 9057,
     "min_bpm": 48,
-    "avg_bpm": 90.8,
-    "max_bpm": 125
+    "avg_bpm": 96.1,
+    "max_bpm": 132
   },
-  "training_sessions": [],
-  "training_calories_total_kcal": 0,
-  "sleep": {
-    "sleep_start_time": "2026-10-29T00:05:34.85+01:00",
-    "sleep_end_time": "2026-10-29T06:18:34.85+01:00",
-    "sleep_score": 76,
-    "sleep_charge": 5,
-    "sleep_rating": 0,
-    "continuity": 4.1,
-    "continuity_class": 4,
-    "total_sleep_min": 356.5,
-    "light_sleep_min": 191.5,
-    "deep_sleep_min": 79.5,
-    "rem_sleep_min": 85.5,
-    "interruptions_min": 16.5,
-    "sleep_cycles": 5,
-    "sleep_goal_min": 450.0,
-    "duration_score": 47.5833,
-    "solidity_score": 86.6142,
-    "regeneration_score": 86.4535
-  },
+  "training_sessions": [
+    {
+      "id": "0e2bc92a-d599-52c8-5b02-8e1531f2894a",
+      "name": "",
+      "start_time": "2026-10-30T09:10:45",
+      "stop_time": "2026-10-30T10:37:50",
+      "duration_min": 87.0,
+      "calories_kcal": 839,
+      "hr_avg_bpm": 118,
+      "hr_max_bpm": 148,
+      "training_load": null,
+      "training_benefit": "TRAINING_BENEFIT_BASIC_AND_STEADY_STATE_TRAINING_LONG",
+      "feeling": null,
+      "product": "Polar Vantage V3",
+      "strength_training_results": []
+    }
+  ],
+  "training_calories_total_kcal": 839,
+  "sleep": null,
   "nightly_recharge": {
-    "nightly_recharge_status": 5,
-    "ans_charge": -1.7,
-    "ans_charge_status": 3,
-    "night_hr_avg_bpm": 73,
-    "night_hrv_rmssd_ms": 34,
-    "breathing_rate_avg": 13.7,
-    "beat_to_beat_avg_ms": 820
+    "nightlyRechargeResults": []
   },
   "physical_info": {
     "weight_kg": 95,
@@ -64,14 +56,14 @@
   },
   "source_status": {
     "daily_activity_v3": 200,
-    "sleep_v3": 200,
-    "nightly_recharge_v3": 200
+    "sleep_v3": 404,
+    "nightly_recharge_v3": 404
   },
   "closure_gate": {
-    "status": "READY",
-    "ready_for_day_close": true,
-    "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 131.1,
+    "status": "WAITING_FOR_POLAR_SYNC",
+    "ready_for_day_close": false,
+    "reason": "Vorheriger Snapshot war noch unvollständig; Stabilitätsbestätigung fehlt.",
+    "stable_for_minutes": null,
     "required_stable_minutes": 30
   }
 }
