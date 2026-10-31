@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-01",
+  "fetched_at": "2026-11-01T00:52:20.126806+01:00",
+  "data_status": {
+    "daily_energy_complete": false,
+    "status": "provisional",
+    "missing_required_fields": [],
+    "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
+  },
+  "daily_activity": {
+    "total_calories_kcal": 79,
+    "active_calories_kcal": 42,
+    "steps": 10,
+    "activity_goal_pct": 0.51,
+    "active_duration": "PT24M30S",
+    "inactive_duration": "PT0S",
+    "distance_km": 0.005,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
+  },
+  "continuous_hr": {
+    "samples": 5,
+    "min_bpm": 85,
+    "avg_bpm": 87.4,
+    "max_bpm": 89
+  },
+  "training_sessions": [],
+  "training_calories_total_kcal": 0,
+  "sleep": null,
+  "nightly_recharge": {
+    "nightlyRechargeResults": []
+  },
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
+  "source_status": {
+    "daily_activity_v3": 200,
+    "sleep_v3": 404,
+    "nightly_recharge_v3": 404
+  },
+  "closure_gate": {
+    "status": "DAY_IN_PROGRESS",
+    "ready_for_day_close": false,
+    "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+    "stable_for_minutes": null,
+    "required_stable_minutes": 30
+  }
+}

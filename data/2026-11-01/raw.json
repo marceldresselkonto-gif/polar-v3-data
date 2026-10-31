@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-01",
+  "fetched_at": "2026-11-01T00:52:20.126806+01:00",
+  "activity": {
+    "activityDays": [
+      {
+        "date": "2026-11-01",
+        "target": {
+          "minDailyMetGoal": 405
+        },
+        "physicalInformation": {
+          "birthday": "1986-03-18",
+          "sex": "SEX_MALE",
+          "height": 186,
+          "weight": 95,
+          "trainingBackground": "TRAINING_BACKGROUND_FREQUENT",
+          "weightSource": "WEIGHT_SOURCE_USER",
+          "sleepGoal": "27000000"
+        },
+        "activitiesPerDevice": [
+          {
+            "deviceReference": {
+              "deviceId": "1D96A23A"
+            },
+            "activitySamples": [
+              {
+                "sportInfos": [
+                  {
+                    "factor": 1.0,
+                    "time": "00:00:00"
+                  }
+                ],
+                "activityInfos": [
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "00:00:00",
+                    "factor": 1.0
+                  }
+                ],
+                "inactivityInfos": [],
+                "stepSamples": {
+                  "startTime": "00:00:00",
+                  "interval": 60000,
+                  "steps": [
+                    0,
+                    6,
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                "metSamples": {
+                  "startTime": "00:00:00",
+                  "interval": 30000,
+                  "mets": [
+                    2.25,
+                    2.125,
+                    2.0,
+                    2.5,
+                    2.5,
+                    2.25,
+                    2.25,
+                    1.875,
+                    2.125,
+                    2.25,
+                    2.25,
+                    2.125,
+                    2.25,
+                    2.25,
+                    2.25,
+                    2.0,
+                    2.125,
+                    2.25,
+                    1.875,
+                    1.875,
+                    2.0,
+                    2.25,
+                    2.25,
+                    2.25,
+                    2.0,
+                    2.125,
+                    2.25,
+                    1.875,
+                    1.875,
+                    2.25,
+                    2.375,
+                    2.375,
+                    2.25,
+                    2.375,
+                    2.625,
+                    2.375,
+                    2.125,
+                    2.125,
+                    2.0,
+                    2.0,
+                    2.375,
+                    2.25,
+                    2.125,
+                    2.125,
+                    2.25,
+                    2.125,
+                    2.125,
+                    2.0,
+                    1.875
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "continuous_hr": {
+    "heartRateSamplesPerDay": [
+      {
+        "date": "2026-11-01",
+        "deviceRef": {
+          "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
+        },
+        "state": 748272443,
+        "samples": [
+          {
+            "heartRate": 89,
+            "offsetMillis": 69000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 369000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 670000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 971000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 1271000,
+            "triggerType": "TRIGGER_TIMED_247"
+          }
+        ]
+      }
+    ]
+  },
+  "training": {},
+  "sleep": {
+    "sleepWakeVectors": []
+  },
+  "nightly_recharge": {
+    "nightlyRechargeResults": []
+  },
+  "daily_activity_summary_v3": {
+    "start_time": "2026-11-01T00:00",
+    "end_time": "2026-11-01T00:24:30",
+    "active_duration": "PT24M30S",
+    "inactive_duration": "PT0S",
+    "daily_activity": 0.51,
+    "calories": 79,
+    "active_calories": 42,
+    "steps": 10,
+    "inactivity_alert_count": 0,
+    "distance_from_steps": 4.97,
+    "samples": {
+      "date": "2026-11-01",
+      "steps": {
+        "interval_ms": 60000,
+        "total_steps": 10,
+        "samples": [
+          {
+            "steps": 0,
+            "timestamp": "2026-11-01T00:00"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-11-01T00:01"
+          },
+          {
+            "steps": 4,
+            "timestamp": "2026-11-01T00:02"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-01T00:03"
+          }
+        ]
+      },
+      "activity_zones": {
+        "samples": [
+          {
+            "timestamp": "2026-11-01T00:00",
+            "zone": "LIGHT"
+          }
+        ]
+      },
+      "inactivity_stamps": {
+        "samples": []
+      }
+    },
+    "_available": true
+  },
+  "sleep_summary_v3": {
+    "_available": false,
+    "_status": 404,
+    "_message": null
+  },
+  "nightly_recharge_v3": {
+    "_available": false,
+    "_status": 404,
+    "_message": null
+  }
+}
