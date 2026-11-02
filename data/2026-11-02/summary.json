@@ -1,30 +1,45 @@
 {
   "date": "2026-11-02",
-  "fetched_at": "2026-11-02T08:20:44.135643+01:00",
+  "fetched_at": "2026-11-02T12:47:06.202543+01:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
-    "missing_required_fields": [
-      "total_calories_kcal",
-      "steps",
-      "activity_goal_pct"
-    ],
+    "missing_required_fields": [],
     "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
   },
   "daily_activity": {
-    "steps": null,
-    "source": "Polar v4 activity samples"
+    "total_calories_kcal": 2200,
+    "active_calories_kcal": 1156,
+    "steps": 4385,
+    "activity_goal_pct": 100.05,
+    "active_duration": "PT4H20M30S",
+    "inactive_duration": "PT49M30S",
+    "distance_km": 2.625,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
   },
-  "continuous_hr": {},
+  "continuous_hr": {
+    "samples": 1854,
+    "min_bpm": 61,
+    "avg_bpm": 92.4,
+    "max_bpm": 115
+  },
   "training_sessions": [],
   "training_calories_total_kcal": 0,
   "sleep": null,
   "nightly_recharge": {
     "nightlyRechargeResults": []
   },
-  "physical_info": null,
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
   "source_status": {
-    "daily_activity_v3": 204,
+    "daily_activity_v3": 200,
     "sleep_v3": 404,
     "nightly_recharge_v3": 404
   },
