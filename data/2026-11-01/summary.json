@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "fetched_at": "2026-11-03T11:39:19.708085+01:00",
+  "fetched_at": "2026-11-03T15:58:30.094619+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -19,16 +19,40 @@
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 4305,
+    "samples": 5703,
     "min_bpm": 60,
-    "avg_bpm": 84.6,
+    "avg_bpm": 82.5,
     "max_bpm": 115
   },
   "training_sessions": [],
   "training_calories_total_kcal": 0,
-  "sleep": null,
+  "sleep": {
+    "sleep_start_time": "2026-11-01T03:08:40.072+01:00",
+    "sleep_end_time": "2026-11-01T09:17:40.072+01:00",
+    "sleep_score": 69,
+    "sleep_charge": 3,
+    "sleep_rating": 0,
+    "continuity": 4.2,
+    "continuity_class": 4,
+    "total_sleep_min": 350.0,
+    "light_sleep_min": 146.5,
+    "deep_sleep_min": 84.5,
+    "rem_sleep_min": 119.0,
+    "interruptions_min": 19.0,
+    "sleep_cycles": 4,
+    "sleep_goal_min": 450.0,
+    "duration_score": 45.25,
+    "solidity_score": 81.0021,
+    "regeneration_score": 73.0662
+  },
   "nightly_recharge": {
-    "nightlyRechargeResults": []
+    "nightly_recharge_status": 3,
+    "ans_charge": -4.8,
+    "ans_charge_status": 2,
+    "night_hr_avg_bpm": 74,
+    "night_hrv_rmssd_ms": 30,
+    "breathing_rate_avg": 13.1,
+    "beat_to_beat_avg_ms": 802
   },
   "physical_info": {
     "weight_kg": 95,
@@ -40,14 +64,14 @@
   },
   "source_status": {
     "daily_activity_v3": 200,
-    "sleep_v3": 404,
-    "nightly_recharge_v3": 404
+    "sleep_v3": 200,
+    "nightly_recharge_v3": 200
   },
   "closure_gate": {
     "status": "READY",
     "ready_for_day_close": true,
     "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 660.5,
+    "stable_for_minutes": 259.2,
     "required_stable_minutes": 30
   }
 }
