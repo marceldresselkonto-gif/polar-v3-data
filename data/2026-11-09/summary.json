@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "fetched_at": "2026-11-10T01:21:21.085684+01:00",
+  "fetched_at": "2026-11-10T12:43:57.770860+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -8,21 +8,21 @@
     "note": "Vortag für Kalorien-/Aktivitätsauswertung vollständig."
   },
   "daily_activity": {
-    "total_calories_kcal": 2531,
-    "active_calories_kcal": 927,
-    "steps": 7883,
-    "activity_goal_pct": 52.66,
-    "active_duration": "PT5H15M",
-    "inactive_duration": "PT4H47M",
-    "distance_km": 5.796,
+    "total_calories_kcal": 3229,
+    "active_calories_kcal": 1189,
+    "steps": 8713,
+    "activity_goal_pct": 60.75,
+    "active_duration": "PT7H26M30S",
+    "inactive_duration": "PT5H38M30S",
+    "distance_km": 6.242,
     "inactivity_alert_count": 0,
     "source": "Polar v3 daily activity summary"
   },
   "continuous_hr": {
-    "samples": 3717,
-    "min_bpm": 59,
-    "avg_bpm": 75.7,
-    "max_bpm": 86
+    "samples": 6636,
+    "min_bpm": 45,
+    "avg_bpm": 84.9,
+    "max_bpm": 122
   },
   "training_sessions": [],
   "training_calories_total_kcal": 0,
@@ -68,10 +68,10 @@
     "nightly_recharge_v3": 200
   },
   "closure_gate": {
-    "status": "READY",
-    "ready_for_day_close": true,
-    "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 73.9,
+    "status": "WAITING_FOR_POLAR_SYNC",
+    "ready_for_day_close": false,
+    "reason": "Polar-Daten haben sich seit dem vorherigen Abruf geändert; spätere Synchronisation erkannt.",
+    "stable_for_minutes": null,
     "required_stable_minutes": 30
   }
 }
