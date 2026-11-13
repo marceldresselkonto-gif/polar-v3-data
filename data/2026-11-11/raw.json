@@ -1,6 +1,6 @@
 {
   "date": "2026-11-11",
-  "fetched_at": "2026-11-13T16:47:11.991609+01:00",
+  "fetched_at": "2026-11-13T16:53:29.865320+01:00",
   "activity": {
     "activityDays": [
       {
@@ -63524,6 +63524,14 @@
           },
           {
             "startOffset": 55430597,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 59120597,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 59210597,
             "newState": "SLEEP_WAKE_STATE_WAKE"
           }
         ]

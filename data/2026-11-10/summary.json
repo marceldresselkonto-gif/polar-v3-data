@@ -1,6 +1,6 @@
 {
   "date": "2026-11-10",
-  "fetched_at": "2026-11-13T16:47:10.659870+01:00",
+  "fetched_at": "2026-11-13T16:53:27.505554+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -86,8 +86,8 @@
   "closure_gate": {
     "status": "WAITING_FOR_POLAR_SYNC",
     "ready_for_day_close": false,
-    "reason": "Daten sind unverändert, aber erst seit 9.1 Minuten bestätigt; erforderlich sind 30 Minuten.",
-    "stable_for_minutes": 9.1,
+    "reason": "Daten sind unverändert, aber erst seit 6.3 Minuten bestätigt; erforderlich sind 30 Minuten.",
+    "stable_for_minutes": 6.3,
     "required_stable_minutes": 30
   }
 }
