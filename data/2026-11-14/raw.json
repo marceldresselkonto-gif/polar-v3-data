@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "fetched_at": "2026-11-14T15:25:40.220642+01:00",
+  "activity": {
+    "activityDays": []
+  },
+  "continuous_hr": {},
+  "training": {},
+  "sleep": {
+    "sleepWakeVectors": []
+  },
+  "nightly_recharge": {
+    "nightlyRechargeResults": []
+  },
+  "daily_activity_summary_v3": {
+    "_available": false,
+    "_status": 204,
+    "_message": null
+  },
+  "sleep_summary_v3": {
+    "_available": false,
+    "_status": 404,
+    "_message": null
+  },
+  "nightly_recharge_v3": {
+    "_available": false,
+    "_status": 404,
+    "_message": null
+  }
+}
