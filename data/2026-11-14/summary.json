@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "fetched_at": "2026-11-14T21:51:58.781600+01:00",
+  "fetched_at": "2026-11-15T15:55:43.349094+01:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
@@ -9,7 +9,7 @@
       "steps",
       "activity_goal_pct"
     ],
-    "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
+    "note": "Polar-Cloud-Daten noch unvollständig; späterer Lauf aktualisiert denselben Tag automatisch."
   },
   "daily_activity": {
     "steps": null,
@@ -29,9 +29,9 @@
     "nightly_recharge_v3": 404
   },
   "closure_gate": {
-    "status": "DAY_IN_PROGRESS",
+    "status": "MISSING_DATA",
     "ready_for_day_close": false,
-    "reason": "Der laufende Kalendertag ist noch nicht abgeschlossen.",
+    "reason": "Polar-Pflichtfelder sind noch unvollständig.",
     "stable_for_minutes": null,
     "required_stable_minutes": 30
   }
