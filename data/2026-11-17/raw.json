@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "fetched_at": "2026-11-17T18:00:41.207711+01:00",
+  "fetched_at": "2026-11-17T20:15:43.805527+01:00",
   "activity": {
     "activityDays": [
       {
@@ -622,6 +622,71 @@
                   {
                     "activityClass": "ACTIVITY_CLASS_LIGHT",
                     "time": "17:25:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "17:29:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "17:30:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "17:32:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "17:33:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "17:34:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "17:35:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_NON_WEAR",
+                    "time": "17:37:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "18:59:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "19:10:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "19:12:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "19:14:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "19:15:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "19:16:00",
                     "factor": 1.0
                   }
                 ],
@@ -1676,7 +1741,127 @@
                     0,
                     0,
                     0,
-                    14
+                    14,
+                    8,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    36,
+                    22,
+                    100,
+                    92,
+                    92,
+                    12,
+                    68,
+                    20,
+                    4,
+                    2,
+                    12,
+                    10,
+                    4,
+                    6,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    2,
+                    0
                   ]
                 },
                 "metSamples": {
@@ -3775,7 +3960,248 @@
                     1.875,
                     1.75,
                     2.0,
-                    3.75
+                    3.75,
+                    3.5,
+                    3.25,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.375,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    2.5,
+                    3.375,
+                    3.0,
+                    3.0,
+                    3.75,
+                    5.0,
+                    2.75,
+                    3.75,
+                    2.75,
+                    4.375,
+                    3.875,
+                    2.625,
+                    3.375,
+                    3.375,
+                    3.5,
+                    3.375,
+                    1.25,
+                    2.875,
+                    1.0,
+                    2.125,
+                    2.375,
+                    2.75,
+                    2.125,
+                    2.375,
+                    2.125,
+                    2.0,
+                    2.25,
+                    2.125,
+                    2.0,
+                    1.875,
+                    2.0,
+                    2.0,
+                    1.875,
+                    2.0,
+                    2.125,
+                    2.125,
+                    2.5,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.25,
+                    2.125,
+                    2.0,
+                    2.0
                   ]
                 }
               }
@@ -3792,7 +4218,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 1156438288,
+        "state": 1995842979,
         "samples": [
           {
             "heartRate": 73,
@@ -42273,6 +42699,36 @@
             "heartRate": 80,
             "offsetMillis": 62491000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 62791000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 82,
+            "offsetMillis": 68730000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 71,
+            "offsetMillis": 69030000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 69331000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 63,
+            "offsetMillis": 69632000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 62,
+            "offsetMillis": 69932000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -42660,6 +43116,18 @@
           {
             "startOffset": 58529574,
             "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 62819574,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 67979574,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 68009574,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
           }
         ]
       }
@@ -42694,20 +43162,20 @@
   },
   "daily_activity_summary_v3": {
     "start_time": "2026-11-17T00:00",
-    "end_time": "2026-11-17T17:26:30",
-    "active_duration": "PT7H45M30S",
-    "inactive_duration": "PT3H26M",
-    "daily_activity": 132.16,
-    "calories": 3253,
-    "active_calories": 1753,
-    "steps": 11119,
+    "end_time": "2026-11-17T19:27",
+    "active_duration": "PT8H8M",
+    "inactive_duration": "PT3H28M30S",
+    "daily_activity": 134.84,
+    "calories": 3471,
+    "active_calories": 1809,
+    "steps": 11611,
     "inactivity_alert_count": 0,
-    "distance_from_steps": 7741.57,
+    "distance_from_steps": 8023.41,
     "samples": {
       "date": "2026-11-17",
       "steps": {
         "interval_ms": 60000,
-        "total_steps": 11119,
+        "total_steps": 11611,
         "samples": [
           {
             "steps": 0,
@@ -44224,6 +44692,86 @@
           {
             "steps": 14,
             "timestamp": "2026-11-17T17:26"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-11-17T17:27"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-17T17:28"
+          },
+          {
+            "steps": 36,
+            "timestamp": "2026-11-17T19:05"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-11-17T19:06"
+          },
+          {
+            "steps": 100,
+            "timestamp": "2026-11-17T19:07"
+          },
+          {
+            "steps": 92,
+            "timestamp": "2026-11-17T19:08"
+          },
+          {
+            "steps": 12,
+            "timestamp": "2026-11-17T19:10"
+          },
+          {
+            "steps": 68,
+            "timestamp": "2026-11-17T19:11"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-11-17T19:12"
+          },
+          {
+            "steps": 4,
+            "timestamp": "2026-11-17T19:13"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-17T19:14"
+          },
+          {
+            "steps": 12,
+            "timestamp": "2026-11-17T19:15"
+          },
+          {
+            "steps": 10,
+            "timestamp": "2026-11-17T19:16"
+          },
+          {
+            "steps": 4,
+            "timestamp": "2026-11-17T19:17"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-11-17T19:18"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-17T19:19"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-17T19:22"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-17T19:23"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-17T19:25"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-17T19:26"
           }
         ]
       },
@@ -44695,6 +45243,58 @@
           },
           {
             "timestamp": "2026-11-17T17:25:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-17T17:29",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-17T17:30:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-17T17:32",
+            "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-11-17T17:33",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-17T17:34",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-17T17:35",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-11-17T17:37:30",
+            "zone": "NON_WEAR"
+          },
+          {
+            "timestamp": "2026-11-17T18:59:30",
+            "zone": "SLEEP"
+          },
+          {
+            "timestamp": "2026-11-17T19:10:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-17T19:12:30",
+            "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-11-17T19:14",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-17T19:15",
+            "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-11-17T19:16",
             "zone": "LIGHT"
           }
         ]
