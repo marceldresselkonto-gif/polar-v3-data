@@ -1,6 +1,6 @@
 {
   "date": "2026-11-19",
-  "fetched_at": "2026-11-20T19:41:19.971003+01:00",
+  "fetched_at": "2026-11-20T19:55:46.830882+01:00",
   "data_status": {
     "daily_energy_complete": true,
     "status": "complete",
@@ -44,10 +44,10 @@
     "nightly_recharge_v3": 404
   },
   "closure_gate": {
-    "status": "READY",
-    "ready_for_day_close": true,
-    "reason": "Zwei vollständige, unveränderte Polar-Snapshots mit ausreichendem Zeitabstand bestätigt.",
-    "stable_for_minutes": 142.6,
+    "status": "WAITING_FOR_POLAR_SYNC",
+    "ready_for_day_close": false,
+    "reason": "Daten sind unverändert, aber erst seit 14.4 Minuten bestätigt; erforderlich sind 30 Minuten.",
+    "stable_for_minutes": 14.4,
     "required_stable_minutes": 30
   }
 }
