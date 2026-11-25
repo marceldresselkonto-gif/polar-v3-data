@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "fetched_at": "2026-11-25T00:13:21.818822+01:00",
+  "fetched_at": "2026-11-25T01:58:45.746704+01:00",
   "activity": {
     "activityDays": [
       {
@@ -6234,6 +6234,51 @@
                     "activityClass": "ACTIVITY_CLASS_LIGHT",
                     "time": "17:47:00",
                     "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "18:28:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:29:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "18:31:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:32:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "18:34:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "18:44:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "19:00:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "19:01:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "19:08:00",
+                    "factor": 1.0
                   }
                 ],
                 "inactivityInfos": [],
@@ -7328,7 +7373,67 @@
                     0,
                     0,
                     0,
-                    0
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    10,
+                    0,
+                    20,
+                    44,
+                    0,
+                    92,
+                    12,
+                    100,
+                    0,
+                    28,
+                    28,
+                    10,
+                    10,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    6,
+                    14,
+                    6,
+                    4
                   ]
                 },
                 "metSamples": {
@@ -9510,7 +9615,128 @@
                     2.0,
                     2.25,
                     2.0,
-                    1.875
+                    1.875,
+                    2.0,
+                    2.0,
+                    2.0,
+                    1.875,
+                    1.375,
+                    2.0,
+                    2.125,
+                    2.125,
+                    1.75,
+                    1.875,
+                    1.75,
+                    2.25,
+                    2.25,
+                    2.125,
+                    1.5,
+                    2.0,
+                    2.0,
+                    1.75,
+                    2.375,
+                    2.375,
+                    3.125,
+                    3.5,
+                    2.0,
+                    1.0,
+                    2.75,
+                    3.5,
+                    3.375,
+                    2.625,
+                    4.25,
+                    3.5,
+                    3.625,
+                    1.75,
+                    2.25,
+                    3.75,
+                    3.25,
+                    3.375,
+                    3.875,
+                    2.125,
+                    3.125,
+                    2.875,
+                    1.25,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.75,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.375,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.125,
+                    1.25,
+                    1.125,
+                    0.875,
+                    0.875,
+                    1.125,
+                    1.875,
+                    2.0,
+                    1.375,
+                    0.875,
+                    1.125,
+                    1.375,
+                    1.125,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    2.125,
+                    1.125,
+                    1.375,
+                    1.5,
+                    1.875,
+                    2.0,
+                    1.75,
+                    1.75,
+                    1.75,
+                    1.875,
+                    2.125,
+                    1.125,
+                    2.125,
+                    2.0
                   ]
                 }
               }
@@ -35201,7 +35427,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 842614708,
+        "state": 151816880,
         "samples": [
           {
             "heartRate": 91,
@@ -57322,6 +57548,66 @@
             "heartRate": 82,
             "offsetMillis": 65258000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 65557000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 65857000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 66157000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 72,
+            "offsetMillis": 66457000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 66757000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 67057000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 67357000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 67657000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 67957000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 68257000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 68558000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 85,
+            "offsetMillis": 68858000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -58487,6 +58773,26 @@
           {
             "startOffset": 62667341,
             "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 66477341,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 66597341,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 66657341,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 66987341,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 67017341,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
           }
         ]
       }
