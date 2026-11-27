@@ -1,30 +1,61 @@
 {
   "date": "2026-11-27",
-  "fetched_at": "2026-11-27T01:43:25.035613+01:00",
+  "fetched_at": "2026-11-27T18:37:04.085986+01:00",
   "data_status": {
     "daily_energy_complete": false,
     "status": "provisional",
-    "missing_required_fields": [
-      "total_calories_kcal",
-      "steps",
-      "activity_goal_pct"
-    ],
+    "missing_required_fields": [],
     "note": "Laufender Tag: vorlaeufiger Stand; beim Tagesabschluss erneut abgleichen."
   },
   "daily_activity": {
-    "steps": null,
-    "source": "Polar v4 activity samples"
+    "total_calories_kcal": 1955,
+    "active_calories_kcal": 943,
+    "steps": 7332,
+    "activity_goal_pct": 71.3,
+    "active_duration": "PT3H52M30S",
+    "inactive_duration": "PT3H21M30S",
+    "distance_km": 6.092,
+    "inactivity_alert_count": 0,
+    "source": "Polar v3 daily activity summary"
   },
-  "continuous_hr": {},
-  "training_sessions": [],
-  "training_calories_total_kcal": 0,
+  "continuous_hr": {
+    "samples": 206,
+    "min_bpm": 70,
+    "avg_bpm": 83.2,
+    "max_bpm": 97
+  },
+  "training_sessions": [
+    {
+      "id": "0e2f66e2-3393-4324-2454-de99b72afde0",
+      "name": "",
+      "start_time": "2026-11-27T06:56:35",
+      "stop_time": "2026-11-27T08:45:41",
+      "duration_min": 109.0,
+      "calories_kcal": 746,
+      "hr_avg_bpm": 104,
+      "hr_max_bpm": 155,
+      "training_load": null,
+      "training_benefit": "TRAINING_BENEFIT_BASIC_AND_STEADY_STATE_TRAINING",
+      "feeling": null,
+      "product": "Polar Vantage V3",
+      "strength_training_results": []
+    }
+  ],
+  "training_calories_total_kcal": 746,
   "sleep": null,
   "nightly_recharge": {
     "nightlyRechargeResults": []
   },
-  "physical_info": null,
+  "physical_info": {
+    "weight_kg": 95,
+    "height_cm": 186,
+    "max_hr_bpm": null,
+    "resting_hr_bpm": null,
+    "vo2max": null,
+    "training_background": "TRAINING_BACKGROUND_FREQUENT"
+  },
   "source_status": {
-    "daily_activity_v3": 204,
+    "daily_activity_v3": 200,
     "sleep_v3": 404,
     "nightly_recharge_v3": 404
   },
