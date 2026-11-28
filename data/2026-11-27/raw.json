@@ -1,6 +1,6 @@
 {
   "date": "2026-11-27",
-  "fetched_at": "2026-11-27T23:16:30.021212+01:00",
+  "fetched_at": "2026-11-28T01:10:25.160443+01:00",
   "activity": {
     "activityDays": [
       {
@@ -787,6 +787,71 @@
                   {
                     "activityClass": "ACTIVITY_CLASS_SEDENTARY",
                     "time": "16:46:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "16:47:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "17:16:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "17:17:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "17:25:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:00:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "18:03:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:04:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_CONTINUOUS_MODERATE",
+                    "time": "18:05:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:06:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "18:07:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_LIGHT",
+                    "time": "18:11:30",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SEDENTARY",
+                    "time": "18:13:00",
+                    "factor": 1.0
+                  },
+                  {
+                    "activityClass": "ACTIVITY_CLASS_SLEEP",
+                    "time": "18:36:30",
                     "factor": 1.0
                   }
                 ],
@@ -1802,7 +1867,127 @@
                     4,
                     0,
                     0,
-                    2
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6,
+                    0,
+                    0,
+                    92,
+                    44,
+                    28,
+                    22,
+                    22,
+                    6,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    28,
+                    20,
+                    108,
+                    8,
+                    20,
+                    6,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
                   ]
                 },
                 "metSamples": {
@@ -3823,7 +4008,249 @@
                     2.0,
                     1.5,
                     1.75,
-                    2.0
+                    2.0,
+                    2.25,
+                    2.125,
+                    2.0,
+                    2.25,
+                    1.875,
+                    1.875,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    2.0,
+                    1.75,
+                    1.625,
+                    1.875,
+                    1.875,
+                    1.875,
+                    1.625,
+                    2.0,
+                    1.875,
+                    2.0,
+                    1.75,
+                    2.0,
+                    2.25,
+                    2.375,
+                    1.75,
+                    2.125,
+                    2.0,
+                    2.125,
+                    1.875,
+                    2.125,
+                    2.25,
+                    1.75,
+                    2.125,
+                    2.0,
+                    2.0,
+                    1.625,
+                    2.0,
+                    2.125,
+                    1.75,
+                    1.375,
+                    2.0,
+                    2.875,
+                    2.0,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.5,
+                    2.75,
+                    3.5,
+                    3.5,
+                    3.375,
+                    2.375,
+                    3.375,
+                    3.0,
+                    2.625,
+                    2.875,
+                    3.375,
+                    2.625,
+                    1.75,
+                    2.125,
+                    1.5,
+                    1.25,
+                    1.625,
+                    1.375,
+                    1.375,
+                    1.5,
+                    1.375,
+                    1.25,
+                    1.0,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.625,
+                    1.125,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.5,
+                    1.125,
+                    1.75,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.375,
+                    1.125,
+                    1.125,
+                    1.25,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.5,
+                    1.25,
+                    1.625,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.625,
+                    1.0,
+                    1.375,
+                    1.375,
+                    1.125,
+                    1.875,
+                    1.25,
+                    1.125,
+                    1.875,
+                    1.625,
+                    1.25,
+                    1.375,
+                    1.625,
+                    1.5,
+                    1.125,
+                    1.25,
+                    1.125,
+                    1.0,
+                    1.25,
+                    2.25,
+                    3.125,
+                    3.0,
+                    3.125,
+                    2.625,
+                    3.625,
+                    4.25,
+                    4.25,
+                    1.875,
+                    1.5,
+                    4.0,
+                    3.25,
+                    1.75,
+                    1.625,
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.375,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.875,
+                    1.75,
+                    1.875,
+                    1.5,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.5,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.25,
+                    1.125,
+                    1.125,
+                    1.625,
+                    1.125,
+                    1.0,
+                    1.375,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.0,
+                    1.125,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.875,
+                    0.875,
+                    0.875,
+                    0.875,
+                    1.5,
+                    1.5,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.125,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.375,
+                    1.25,
+                    1.25,
+                    1.125,
+                    1.375,
+                    1.25,
+                    1.125,
+                    1.625,
+                    1.625,
+                    1.125,
+                    1.5,
+                    1.125,
+                    1.375,
+                    1.625
                   ]
                 }
               }
@@ -3840,7 +4267,7 @@
         "deviceRef": {
           "deviceId": "0e030000-0084-0000-0000-00001d96a23a"
         },
-        "state": 1737699784,
+        "state": 1675515473,
         "samples": [
           {
             "heartRate": 77,
@@ -7456,6 +7883,126 @@
             "heartRate": 85,
             "offsetMillis": 60209000,
             "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 80,
+            "offsetMillis": 60509000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 70,
+            "offsetMillis": 60809000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 90,
+            "offsetMillis": 61109000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 61409000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 61709000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 82,
+            "offsetMillis": 62009000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 78,
+            "offsetMillis": 62310000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 91,
+            "offsetMillis": 62610000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 92,
+            "offsetMillis": 62911000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 91,
+            "offsetMillis": 63211000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 91,
+            "offsetMillis": 63511000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 63811000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 64111000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 64412000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 89,
+            "offsetMillis": 64711000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 86,
+            "offsetMillis": 65012000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 83,
+            "offsetMillis": 65312000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 83,
+            "offsetMillis": 65612000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 83,
+            "offsetMillis": 65912000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 79,
+            "offsetMillis": 66213000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 80,
+            "offsetMillis": 66513000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 80,
+            "offsetMillis": 66814000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 87,
+            "offsetMillis": 67114000,
+            "triggerType": "TRIGGER_TIMED_247"
+          },
+          {
+            "heartRate": 88,
+            "offsetMillis": 67414000,
+            "triggerType": "TRIGGER_TIMED_247"
           }
         ]
       }
@@ -7881,6 +8428,98 @@
           {
             "startOffset": 58259724,
             "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 58679724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 58739724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 58979724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 59339724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 59579724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 61799724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 61859724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 62519724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 62729724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 62789724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 62969724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 63059724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 63269724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 63569724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 63689724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 64349724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 64439724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 65219724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 65309724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 65369724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 65489724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
+          },
+          {
+            "startOffset": 65549724,
+            "newState": "SLEEP_WAKE_STATE_SLEEP"
+          },
+          {
+            "startOffset": 65669724,
+            "newState": "SLEEP_WAKE_STATE_WAKE"
           }
         ]
       }
@@ -7891,20 +8530,20 @@
   },
   "daily_activity_summary_v3": {
     "start_time": "2026-11-27T00:00",
-    "end_time": "2026-11-27T16:47:30",
-    "active_duration": "PT5H34M30S",
-    "inactive_duration": "PT5H23M30S",
-    "daily_activity": 80.47,
-    "calories": 2630,
-    "active_calories": 1183,
-    "steps": 8717,
+    "end_time": "2026-11-27T18:48:30",
+    "active_duration": "PT6H19M",
+    "inactive_duration": "PT6H28M",
+    "daily_activity": 82.99,
+    "calories": 2905,
+    "active_calories": 1278,
+    "steps": 9133,
     "inactivity_alert_count": 0,
-    "distance_from_steps": 6972.77,
+    "distance_from_steps": 7220.88,
     "samples": {
       "date": "2026-11-27",
       "steps": {
         "interval_ms": 60000,
-        "total_steps": 8717,
+        "total_steps": 9133,
         "samples": [
           {
             "steps": 0,
@@ -9021,6 +9660,86 @@
           {
             "steps": 2,
             "timestamp": "2026-11-27T16:47"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-27T16:48"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-11-27T17:09"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-27T17:10"
+          },
+          {
+            "steps": 92,
+            "timestamp": "2026-11-27T17:12"
+          },
+          {
+            "steps": 44,
+            "timestamp": "2026-11-27T17:13"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-11-27T17:14"
+          },
+          {
+            "steps": 22,
+            "timestamp": "2026-11-27T17:15"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-11-27T17:17"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-27T17:18"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-27T17:19"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-27T17:54"
+          },
+          {
+            "steps": 28,
+            "timestamp": "2026-11-27T17:55"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-11-27T17:56"
+          },
+          {
+            "steps": 108,
+            "timestamp": "2026-11-27T17:57"
+          },
+          {
+            "steps": 8,
+            "timestamp": "2026-11-27T17:58"
+          },
+          {
+            "steps": 20,
+            "timestamp": "2026-11-27T17:59"
+          },
+          {
+            "steps": 6,
+            "timestamp": "2026-11-27T18:00"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-27T18:01"
+          },
+          {
+            "steps": 2,
+            "timestamp": "2026-11-27T18:06"
+          },
+          {
+            "steps": 0,
+            "timestamp": "2026-11-27T18:07"
           }
         ]
       },
@@ -9625,6 +10344,58 @@
           {
             "timestamp": "2026-11-27T16:46",
             "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-27T16:47:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T17:16:30",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-27T17:17:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T17:25",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-27T18:00:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T18:03",
+            "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-11-27T18:04:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T18:05:30",
+            "zone": "MODERATE"
+          },
+          {
+            "timestamp": "2026-11-27T18:06:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T18:07",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-27T18:11:30",
+            "zone": "LIGHT"
+          },
+          {
+            "timestamp": "2026-11-27T18:13",
+            "zone": "SEDENTARY"
+          },
+          {
+            "timestamp": "2026-11-27T18:36:30",
+            "zone": "SLEEP"
           }
         ]
       },
